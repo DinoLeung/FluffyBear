@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Dino/Desktop/mobile game/FluffyBear/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/Dino/.android/build-cache/878df95b7c9444613fdac858696f5ac9d0ea3f08/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/Dino/Desktop/mobile game/FluffyBear/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/Dino/.android/build-cache/878df95b7c9444613fdac858696f5ac9d0ea3f08/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/Dino/Desktop/mobile game/FluffyBear/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/Dino/.android/build-cache/878df95b7c9444613fdac858696f5ac9d0ea3f08/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/Dino/Desktop/mobile game/FluffyBear/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/Dino/.android/build-cache/878df95b7c9444613fdac858696f5ac9d0ea3f08/output/res/drawable-v21/notification_action_background.xml"
+    }
+]

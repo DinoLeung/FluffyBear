@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/Dino/Desktop/mobile game/FluffyBear/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/Dino/.android/build-cache/878df95b7c9444613fdac858696f5ac9d0ea3f08/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/Dino/Desktop/mobile game/FluffyBear/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/Dino/.android/build-cache/878df95b7c9444613fdac858696f5ac9d0ea3f08/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/Dino/Desktop/mobile game/FluffyBear/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/Dino/.android/build-cache/878df95b7c9444613fdac858696f5ac9d0ea3f08/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/Dino/Desktop/mobile game/FluffyBear/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/Dino/.android/build-cache/878df95b7c9444613fdac858696f5ac9d0ea3f08/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]
