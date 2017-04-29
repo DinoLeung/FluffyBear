@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.maps.tiled.TiledMapRenderer;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
+import com.badlogic.gdx.scenes.scene2d.Stage;
 
 /**
  * Created by Dino on 03/04/2017.
@@ -13,16 +14,7 @@ import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 
 public class Bridge {
 
-    public static final int DEFAULT_SPEED = 80;
-    public static final int ACCELERATION = 50;
-    public static final int GOAL_REACH_ACCELERATION = 200;
-    public static final int GRID_SIZE = 32;
-
-
-    private int speed;
-    private int goalSpeed;
-    private float imageSize;
-    private boolean speedFixed;
+    private Stage stage;
 
     private int rowNum;
     private int colNum;
@@ -33,7 +25,7 @@ public class Bridge {
     private float initialCameraY;
 
     TiledMapRenderer tiledMapRenderer;
-    OrthographicCamera camera;
+//    OrthographicCamera camera;
 
 
     /**
@@ -41,27 +33,28 @@ public class Bridge {
      * @param rowNum number of rows on screen
      * @param bridgeWidth width of the bridge, min value 0
      */
-    public Bridge(int rowNum, int bridgeWidth, SpriteBatch batch){
+    public Bridge(int rowNum, int colNum, int bridgeWidth, Stage stage){
 
         // for logcat output
         Gdx.app.setLogLevel(Application.LOG_DEBUG);
 
+        this.stage = stage;
+
         this.rowNum = rowNum;
+        this.colNum = colNum;
 
         //initialise imageScale
-        this.resize(Gdx.app.getGraphics().getWidth(), Gdx.app.getGraphics().getHeight());
-
-        this.colNum = (int)(Gdx.app.getGraphics().getHeight()/imageSize) * 2;
+//        this.resize(Gdx.app.getGraphics().getWidth(), Gdx.app.getGraphics().getHeight());
 
         this.bridgeWidth = bridgeWidth;
 
-        this.generator = new BridgeGenerator(this.bridgeWidth, this.rowNum, this.colNum, GRID_SIZE);
+        this.generator = new BridgeGenerator(this.bridgeWidth, this.rowNum, this.colNum, MyGdxGame.GRID_SIZE);
 
-        camera = new OrthographicCamera();
-        camera.setToOrtho(false, this.rowNum * GRID_SIZE, (this.colNum / 2) * GRID_SIZE);
-        camera.update();
+//        camera = new OrthographicCamera();
+//        camera.setToOrtho(false, this.rowNum * MyGdxGame.GRID_SIZE, (this.colNum / 2) * MyGdxGame.GRID_SIZE);
+//        camera.update();
 
-        initialCameraY = camera.position.y;
+        initialCameraY = stage.getViewport().getCamera().position.y;
 
         tiledMapRenderer = new OrthogonalTiledMapRenderer(this.generator.map);
 
@@ -69,30 +62,30 @@ public class Bridge {
         this.generator.swapNextMap();
     }
 
-    public void updateAndRender(float deltaTime, SpriteBatch batch){
+    public void updateAndRender(float deltaTime){
 
-        if (camera.position.y - initialCameraY >= camera.viewportHeight) {
+        if (stage.getViewport().getCamera().position.y - initialCameraY >= stage.getViewport().getCamera().viewportHeight) {
             //swap new map in
             Gdx.app.debug("updateAndRender", "SWAP");
             this.generator.swapNextMap();
-            camera.position.y = initialCameraY;
+            stage.getViewport().getCamera().position.y = initialCameraY;
         }else
-            camera.position.y += 100.0f * deltaTime;
+            stage.getViewport().getCamera().position.y += 100.0f * deltaTime;
 
-        camera.update();
-        tiledMapRenderer.setView(camera);
+        stage.getViewport().getCamera().update();
+        tiledMapRenderer.setView((OrthographicCamera)stage.getViewport().getCamera());
         tiledMapRenderer.render();
     }
 
     public void resize(int width, int height){
-        imageSize = width/ rowNum;
+
     }
 
-    public void setSpeed(int goalSpeed){
-        this.goalSpeed = goalSpeed;
-    }
-
-    public void getSpeedFixed(boolean speedFixed){
-        this.speedFixed = speedFixed;
-    }
+//    public void setSpeed(int goalSpeed){
+//        this.goalSpeed = goalSpeed;
+//    }
+//
+//    public void getSpeedFixed(boolean speedFixed){
+//        this.speedFixed = speedFixed;
+//    }
 }

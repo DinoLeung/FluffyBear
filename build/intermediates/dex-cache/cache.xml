@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/Dino/Desktop/mobile game/FluffyBear/core/build/libs/core-1.0.jar"
+        jar="/Users/dino/Documents/Mobile App/FluffyBear/core/build/libs/core-1.0.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="3690984d8351a1ecc6519bc7cfe53a8a5e24621f">
-        <dex dex="/Users/Dino/Desktop/mobile game/FluffyBear/android/build/intermediates/pre-dexed/debug/core-1.0_eba094ef908db914653bbe736ccc73aeb0771bf6.jar" />
+        sha1="0326acb45eba729a72163c18495495fe362727c4">
+        <dex dex="/Users/dino/Documents/Mobile App/FluffyBear/android/build/intermediates/pre-dexed/debug/core-1.0_c824e1acfae529cb46535af90a7e7119bb1e5369.jar" />
     </item>
 
 </items>

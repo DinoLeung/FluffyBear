@@ -5,7 +5,51 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a74e4769-4002-4d9f-aa8a-ffa009fdf9a2" name="Default" comment="" />
+    <list default="true" id="a74e4769-4002-4d9f-aa8a-ffa009fdf9a2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_eba094ef908db914653bbe736ccc73aeb0771bf6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/debug_f7da0c4d2acf973681e5ae7cbabe94172fa431a3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-1.9.5_c22d00ad35e83787975da30338cb9cd8d3a70b54.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.9.5_c9e8ebc49271ec9ff8978a598cdfaef9e8b8f7e1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-box2d-1.9.5_883bb9d8c1a9faf31bf2d57932d28aaa3394497d.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/arm64-v8a/libgdx-box2d.so" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/arm64-v8a/libgdx-box2d.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/arm64-v8a/libgdx.so" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/arm64-v8a/libgdx.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi-v7a/libgdx-box2d.so" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi-v7a/libgdx-box2d.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi-v7a/libgdx.so" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi-v7a/libgdx.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi/libgdx-box2d.so" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi/libgdx-box2d.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi/libgdx.so" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi/libgdx.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86/libgdx-box2d.so" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86/libgdx-box2d.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86/libgdx.so" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86/libgdx.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86_64/libgdx-box2d.so" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86_64/libgdx-box2d.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86_64/libgdx.so" afterPath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86_64/libgdx.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/arm64-v8a/libgdx-box2d.so" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/arm64-v8a/libgdx-box2d.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/arm64-v8a/libgdx.so" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/arm64-v8a/libgdx.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libgdx-box2d.so" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libgdx-box2d.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libgdx.so" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libgdx.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi/libgdx-box2d.so" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi/libgdx-box2d.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi/libgdx.so" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi/libgdx.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libgdx-box2d.so" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libgdx-box2d.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libgdx.so" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libgdx.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libgdx-box2d.so" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libgdx-box2d.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libgdx.so" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libgdx.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug-unaligned.apk" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/Bridge.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/Bridge.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/MyGdxGame.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/MyGdxGame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
+    </list>
     <ignored path="FluffyBear.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,29 +83,22 @@
       <file leaf-file-name="MyGdxGame.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="238">
+              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#879#880#0" expanded="false" />
-                <element signature="e#901#902#0" expanded="false" />
+                <marker date="1493465458000" expanded="true" signature="1531:1540" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bridge.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Bridge.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+            <state relative-caret-position="126">
+              <caret line="56" column="54" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="54" />
               <folding>
-                <element signature="e#2501#2502#0" expanded="false" />
-                <element signature="e#2542#2543#0" expanded="false" />
-                <element signature="e#2584#2585#0" expanded="false" />
-                <element signature="e#2626#2627#0" expanded="false" />
-                <element signature="e#2678#2679#0" expanded="false" />
-                <element signature="e#2722#2723#0" expanded="false" />
+                <element signature="method#resize#0;class#Bridge#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -70,9 +107,10 @@
       <file leaf-file-name="BridgeGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/BridgeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+            <state relative-caret-position="-189">
+              <caret line="39" column="42" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="42" />
               <folding>
+                <element signature="method#swapNextMap#0;class#BridgeGenerator#0" expanded="false" />
                 <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
                 <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
                 <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
@@ -84,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScrollingBackground.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ScrollingBackground.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/ScrollingBackground.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="-30">
               <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding />
             </state>
@@ -102,6 +140,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -1930,10 +1971,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/ScrollingBackground.java" />
         <option value="$PROJECT_DIR$/core/src/com/mygdx/game/BridgeGenerator.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
       </list>
     </option>
   </component>
@@ -1967,9 +2008,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1998,7 +2038,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2006,7 +2047,9 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="Nexus_5X_API_22" />
+    <property name="device.picker.selection" value="Nexus_5X_API_25" />
+    <property name="android.project.structure.last.selected" value="Authentication" />
+    <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -2346,17 +2389,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37537995" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206687" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2366,8 +2409,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969605" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969605" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2395,14 +2438,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="method#resize#0;class#Bridge#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
+            <marker date="1493465458000" expanded="true" signature="1531:1540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2412,12 +2463,51 @@
         <state relative-caret-position="1095">
           <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
           <folding>
-            <element signature="e#2501#2502#0" expanded="false" />
-            <element signature="e#2542#2543#0" expanded="false" />
-            <element signature="e#2584#2585#0" expanded="false" />
-            <element signature="e#2626#2627#0" expanded="false" />
-            <element signature="e#2678#2679#0" expanded="false" />
-            <element signature="e#2722#2723#0" expanded="false" />
+            <element signature="method#resize#0;class#Bridge#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/BridgeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+          <folding>
+            <element signature="method#swapNextMap#0;class#BridgeGenerator#0" expanded="false" />
+            <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
+            <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
+            <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
+            <element signature="method#generateRight#0;class#BridgeGenerator#0" expanded="false" />
+            <element signature="method#generateLeftNext#0;class#BridgeGenerator#0" expanded="false" />
+            <element signature="method#generateRightNext#0;class#BridgeGenerator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/ScrollingBackground.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <marker date="1493465458000" expanded="true" signature="1531:1540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+          <folding>
+            <element signature="method#resize#0;class#Bridge#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2427,6 +2517,7 @@
         <state relative-caret-position="1020">
           <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
           <folding>
+            <element signature="method#swapNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
@@ -2450,9 +2541,7 @@
         <state relative-caret-position="390">
           <caret line="26" column="61" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
+            <marker date="1493465458000" expanded="true" signature="1531:1540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2462,12 +2551,7 @@
         <state relative-caret-position="1410">
           <caret line="104" column="103" selection-start-line="104" selection-start-column="103" selection-end-line="104" selection-end-column="103" />
           <folding>
-            <element signature="e#2501#2502#0" expanded="false" />
-            <element signature="e#2542#2543#0" expanded="false" />
-            <element signature="e#2584#2585#0" expanded="false" />
-            <element signature="e#2626#2627#0" expanded="false" />
-            <element signature="e#2678#2679#0" expanded="false" />
-            <element signature="e#2722#2723#0" expanded="false" />
+            <element signature="method#resize#0;class#Bridge#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2477,6 +2561,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#swapNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
@@ -2492,9 +2577,7 @@
         <state relative-caret-position="390">
           <caret line="26" column="61" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
+            <marker date="1493465458000" expanded="true" signature="1531:1540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2504,12 +2587,7 @@
         <state relative-caret-position="1410">
           <caret line="104" column="103" selection-start-line="104" selection-start-column="103" selection-end-line="104" selection-end-column="103" />
           <folding>
-            <element signature="e#2501#2502#0" expanded="false" />
-            <element signature="e#2542#2543#0" expanded="false" />
-            <element signature="e#2584#2585#0" expanded="false" />
-            <element signature="e#2626#2627#0" expanded="false" />
-            <element signature="e#2678#2679#0" expanded="false" />
-            <element signature="e#2722#2723#0" expanded="false" />
+            <element signature="method#resize#0;class#Bridge#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2519,6 +2597,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#swapNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
@@ -2534,9 +2613,7 @@
         <state relative-caret-position="195">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
+            <marker date="1493465458000" expanded="true" signature="1531:1540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2546,12 +2623,7 @@
         <state relative-caret-position="1215">
           <caret line="81" column="41" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
           <folding>
-            <element signature="e#2501#2502#0" expanded="false" />
-            <element signature="e#2542#2543#0" expanded="false" />
-            <element signature="e#2584#2585#0" expanded="false" />
-            <element signature="e#2626#2627#0" expanded="false" />
-            <element signature="e#2678#2679#0" expanded="false" />
-            <element signature="e#2722#2723#0" expanded="false" />
+            <element signature="method#resize#0;class#Bridge#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2561,6 +2633,7 @@
         <state relative-caret-position="1335">
           <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
+            <element signature="method#swapNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
@@ -2584,9 +2657,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
+            <marker date="1493465458000" expanded="true" signature="1531:1540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2596,9 +2667,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
+            <marker date="1493465458000" expanded="true" signature="1531:1540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2608,9 +2677,7 @@
         <state relative-caret-position="255">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
+            <marker date="1493465458000" expanded="true" signature="1531:1540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2620,12 +2687,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2501#2502#0" expanded="false" />
-            <element signature="e#2542#2543#0" expanded="false" />
-            <element signature="e#2584#2585#0" expanded="false" />
-            <element signature="e#2626#2627#0" expanded="false" />
-            <element signature="e#2678#2679#0" expanded="false" />
-            <element signature="e#2722#2723#0" expanded="false" />
+            <element signature="method#resize#0;class#Bridge#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2635,6 +2697,7 @@
         <state relative-caret-position="690">
           <caret line="51" column="67" selection-start-line="51" selection-start-column="67" selection-end-line="51" selection-end-column="67" />
           <folding>
+            <element signature="method#swapNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
@@ -2658,9 +2721,7 @@
         <state relative-caret-position="255">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
+            <marker date="1493465458000" expanded="true" signature="1531:1540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2670,12 +2731,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2501#2502#0" expanded="false" />
-            <element signature="e#2542#2543#0" expanded="false" />
-            <element signature="e#2584#2585#0" expanded="false" />
-            <element signature="e#2626#2627#0" expanded="false" />
-            <element signature="e#2678#2679#0" expanded="false" />
-            <element signature="e#2722#2723#0" expanded="false" />
+            <element signature="method#resize#0;class#Bridge#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2685,6 +2741,7 @@
         <state relative-caret-position="690">
           <caret line="51" column="67" selection-start-line="51" selection-start-column="67" selection-end-line="51" selection-end-column="67" />
           <folding>
+            <element signature="method#swapNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
@@ -2708,9 +2765,7 @@
         <state relative-caret-position="255">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
+            <marker date="1493465458000" expanded="true" signature="1531:1540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2720,12 +2775,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2501#2502#0" expanded="false" />
-            <element signature="e#2542#2543#0" expanded="false" />
-            <element signature="e#2584#2585#0" expanded="false" />
-            <element signature="e#2626#2627#0" expanded="false" />
-            <element signature="e#2678#2679#0" expanded="false" />
-            <element signature="e#2722#2723#0" expanded="false" />
+            <element signature="method#resize#0;class#Bridge#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2743,6 +2793,7 @@
         <state relative-caret-position="45">
           <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
           <folding>
+            <element signature="method#swapNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
@@ -2758,9 +2809,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
+            <marker date="1493465458000" expanded="true" signature="1531:1540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -2799,38 +2848,28 @@
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.5/df0e6a52ed42009b20ab64cc81e57c3ae24d9109/gdx-1.9.5-sources.jar!/com/badlogic/gdx/math/Vector3.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.5/df0e6a52ed42009b20ab64cc81e57c3ae24d9109/gdx-1.9.5-sources.jar!/com/badlogic/gdx/maps/tiled/TiledMapTileLayer.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/sprite/Bridge.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/ScrollingBackground.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-          <folding>
-            <element signature="e#2501#2502#0" expanded="false" />
-            <element signature="e#2542#2543#0" expanded="false" />
-            <element signature="e#2584#2585#0" expanded="false" />
-            <element signature="e#2626#2627#0" expanded="false" />
-            <element signature="e#2678#2679#0" expanded="false" />
-            <element signature="e#2722#2723#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-30">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/BridgeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        <state relative-caret-position="-189">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="42" />
           <folding>
+            <element signature="method#swapNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
@@ -2841,11 +2880,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/ScrollingBackground.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+          <folding>
+            <marker date="1493465458000" expanded="true" signature="1531:1540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="56" column="54" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="54" />
+          <folding>
+            <element signature="method#resize#0;class#Bridge#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
