@@ -3,7 +3,6 @@ package com.mygdx.game;
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.maps.tiled.TiledMapRenderer;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 import com.badlogic.gdx.scenes.scene2d.Stage;
@@ -45,7 +44,7 @@ public class Bridge {
 
         this.bridgeWidth = bridgeWidth;
 
-        this.generator = new BridgeGenerator(this.bridgeWidth, this.rowNum, this.colNum, MyGdxGame.GRID_SIZE);
+        this.generator = new BridgeGenerator(this.bridgeWidth, this.rowNum, this.colNum, MainGame.GRID_SIZE);
 
         initialCameraY = stage.getViewport().getCamera().position.y;
 

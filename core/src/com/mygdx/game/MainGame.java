@@ -15,7 +15,7 @@ import com.badlogic.gdx.utils.viewport.ScalingViewport;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
-public class MyGdxGame extends ApplicationAdapter {
+public class MainGame extends ApplicationAdapter {
     public static final int DEFAULT_SPEED = 80;
     public static final int ACCELERATION = 50;
     public static final int GOAL_REACH_ACCELERATION = 200;
@@ -28,6 +28,8 @@ public class MyGdxGame extends ApplicationAdapter {
 //	SpriteBatch batch;
 //	ScrollingBackground scrollingBackground;
     Bridge bridge;
+    Car car;
+
 	Stage stage;
     Viewport viewport;
     OrthographicCamera camera;
@@ -54,6 +56,8 @@ public class MyGdxGame extends ApplicationAdapter {
 
 //		scrollingBackground = new ScrollingBackground();
         bridge = new Bridge(rowNum, colNum, bridgeWidth, stage);
+        car = new Car(stage);
+
 	}
 
 	@Override
@@ -67,7 +71,9 @@ public class MyGdxGame extends ApplicationAdapter {
 //		this.scrollingBackground.updateAndRender(Gdx.graphics.getDeltaTime(), batch);
 
         //pass the delta time over, so that the bridge can be move over time
-        this.bridge.updateAndRender(Gdx.graphics.getDeltaTime());
+        float deltaTime = Gdx.graphics.getDeltaTime();
+        this.bridge.updateAndRender(deltaTime);
+        this.car.updateAndRender(deltaTime);
 //		batch.end();
 	}
 	
@@ -85,6 +91,7 @@ public class MyGdxGame extends ApplicationAdapter {
 
 		this.stage.getViewport().update(width, height, true);
 //		this.scrollingBackground.resize(width,height);
-        this.bridge.resize(width,height);
+        this.bridge.resize(width, height);
+        this.car.resize(width, height);
 	}
 }
