@@ -67,7 +67,7 @@ public class BridgeGenerator {
     }
 
     public void swapNextMap(){
-        //swap layer into map
+        //swap new layer into map
         map.getLayers().remove(0);
         map.getLayers().add(nextLayer);
         layer = nextLayer;
@@ -75,6 +75,7 @@ public class BridgeGenerator {
         generateNextMap();
     }
 
+    //private method to generate a screen long extension on the original map
     private void generateNextMap(){
 
         //create a empty map layer
@@ -136,6 +137,7 @@ public class BridgeGenerator {
         }
     }
 
+    //private method to generate a new map which is 2 times longer then the screen
     private void generateNewMap(){
 
         //create a empty map layer

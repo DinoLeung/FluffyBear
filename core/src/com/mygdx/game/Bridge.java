@@ -25,13 +25,13 @@ public class Bridge {
     private float initialCameraY;
 
     TiledMapRenderer tiledMapRenderer;
-//    OrthographicCamera camera;
-
 
     /**
      *
-     * @param rowNum number of rows on screen
+     * @param rowNum number of row on map
+     * @param colNum number of column on map
      * @param bridgeWidth width of the bridge, min value 0
+     * @param stage
      */
     public Bridge(int rowNum, int colNum, int bridgeWidth, Stage stage){
 
@@ -43,16 +43,9 @@ public class Bridge {
         this.rowNum = rowNum;
         this.colNum = colNum;
 
-        //initialise imageScale
-//        this.resize(Gdx.app.getGraphics().getWidth(), Gdx.app.getGraphics().getHeight());
-
         this.bridgeWidth = bridgeWidth;
 
         this.generator = new BridgeGenerator(this.bridgeWidth, this.rowNum, this.colNum, MyGdxGame.GRID_SIZE);
-
-//        camera = new OrthographicCamera();
-//        camera.setToOrtho(false, this.rowNum * MyGdxGame.GRID_SIZE, (this.colNum / 2) * MyGdxGame.GRID_SIZE);
-//        camera.update();
 
         initialCameraY = stage.getViewport().getCamera().position.y;
 
@@ -68,8 +61,10 @@ public class Bridge {
             //swap new map in
             Gdx.app.debug("updateAndRender", "SWAP");
             this.generator.swapNextMap();
+            //bring the camera back to the original point
             stage.getViewport().getCamera().position.y = initialCameraY;
         }else
+            //keep moving the camera
             stage.getViewport().getCamera().position.y += 100.0f * deltaTime;
 
         stage.getViewport().getCamera().update();
@@ -81,11 +76,4 @@ public class Bridge {
 
     }
 
-//    public void setSpeed(int goalSpeed){
-//        this.goalSpeed = goalSpeed;
-//    }
-//
-//    public void getSpeedFixed(boolean speedFixed){
-//        this.speedFixed = speedFixed;
-//    }
 }

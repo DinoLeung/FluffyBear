@@ -25,7 +25,7 @@ public class MyGdxGame extends ApplicationAdapter {
     private int goalSpeed;
     private boolean speedFixed;
 
-	SpriteBatch batch;
+//	SpriteBatch batch;
 //	ScrollingBackground scrollingBackground;
     Bridge bridge;
 	Stage stage;
@@ -38,7 +38,7 @@ public class MyGdxGame extends ApplicationAdapter {
 	
 	@Override
 	public void create () {
-        batch = new SpriteBatch();
+//        batch = new SpriteBatch();
 
         imageSize = Gdx.app.getGraphics().getWidth() / rowNum;
         colNum = (int)(Gdx.app.getGraphics().getHeight() / imageSize) * 2;
@@ -62,17 +62,19 @@ public class MyGdxGame extends ApplicationAdapter {
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		stage.act(Gdx.graphics.getDeltaTime());
 
-		batch.begin();
+//		batch.begin();
         stage.draw();
 //		this.scrollingBackground.updateAndRender(Gdx.graphics.getDeltaTime(), batch);
+
+        //pass the delta time over, so that the bridge can be move over time
         this.bridge.updateAndRender(Gdx.graphics.getDeltaTime());
-		batch.end();
+//		batch.end();
 	}
 	
 	@Override
 	public void dispose () {
 		stage.dispose();
-		batch.dispose();
+//		batch.dispose();
 	}
 
 	@Override
@@ -85,8 +87,4 @@ public class MyGdxGame extends ApplicationAdapter {
 //		this.scrollingBackground.resize(width,height);
         this.bridge.resize(width,height);
 	}
-
-//    public float getImageSize() {
-//        return imageSize;
-//    }
 }
