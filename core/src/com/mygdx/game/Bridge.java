@@ -52,7 +52,7 @@ public class Bridge {
         tiledMapRenderer = new OrthogonalTiledMapRenderer(this.generator.map);
 
         //hacky way to prevent lag on the first swap
-        this.generator.swapNextMap();
+//        this.generator.swapNextMap();
     }
 
     public void updateAndRender(float deltaTime){

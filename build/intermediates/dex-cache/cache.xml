@@ -2,11 +2,22 @@
 <items version="2" >
 
     <item
-        jar="/Users/dino/Documents/Mobile App/FluffyBear/core/build/libs/core-1.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/dino/Documents/Mobile App/FluffyBear/android/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
         revision="25.0.2"
-        sha1="4432425c2d64c2e6fb5e7e900077ab96a1d40684">
-        <dex dex="/Users/dino/Documents/Mobile App/FluffyBear/android/build/intermediates/pre-dexed/debug/core-1.0_c824e1acfae529cb46535af90a7e7119bb1e5369.jar" />
+        sha1="8230056eb1e5b7b5de619b0a0ae1f97cd2e73503">
+        <dex dex="/Users/dino/Documents/Mobile App/FluffyBear/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_773f9a0d9ae15369421c5303874dafd2c2235e35/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dino/Documents/Mobile App/FluffyBear/android/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/dino/Documents/Mobile App/FluffyBear/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c9bd8af5152d7885d229d4ad2bd06c1adb13b488/classes.dex" />
     </item>
 
 </items>

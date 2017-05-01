@@ -1,0 +1,7 @@
+#Mon May 01 13:14:39 ACST 2017
+base.0=/Users/dino/Documents/Mobile App/FluffyBear/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_773f9a0d9ae15369421c5303874dafd2c2235e35
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/dino/Documents/Mobile App/FluffyBear/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c9bd8af5152d7885d229d4ad2bd06c1adb13b488/classes.dex
+base.1=/Users/dino/Documents/Mobile App/FluffyBear/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c9bd8af5152d7885d229d4ad2bd06c1adb13b488
+file.0=/Users/dino/Documents/Mobile App/FluffyBear/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_773f9a0d9ae15369421c5303874dafd2c2235e35/classes.dex

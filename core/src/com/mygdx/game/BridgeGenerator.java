@@ -82,23 +82,49 @@ public class BridgeGenerator {
         nextLayer = new TiledMapTileLayer(mapWidth, mapHeight, gridSize, gridSize);
 
         //remove first half
-        direction.removeRange(0, mapHeight/2);
-        farLeft.removeRange(0, mapHeight/2);
+        direction.removeRange(0, mapHeight/2 -1);
+        farLeft.removeRange(0, mapHeight/2 -1);
 
         //copy the second half
         int h = 0;
-        for (; h < direction.size - 1; h++)
-            if (direction.get(h))
+        for (; h < direction.size; h++)
+            if(direction.get(h))
                 generateLeftNext(h, farLeft.get(h));
             else
                 generateRightNext(h, farLeft.get(h));
 
 
         //generate new turnings
-
         int lastFarLeft = farLeft.peek();
         boolean towardLeft = direction.peek();
 
+        //generate the next one turning data
+        if (towardLeft){ //going left
+
+            //decide direction for next
+            if (r.nextBoolean()) //keep going left
+                //check if reach far left
+                if (lastFarLeft <= 0) //turn right
+                    towardLeft = false;
+                else //continue on left
+                    lastFarLeft -= 2;
+            else //turn right next
+                towardLeft = false;
+
+        }else{ //going right
+
+            //decide direction for next
+            if (r.nextBoolean()) //keep going right
+                //check if reach far right
+                if (lastFarLeft + bridgeWidth + 4 >= mapWidth) //turn left
+                    towardLeft = true;
+                else //continue on right
+                    lastFarLeft += 2;
+            else //turn left
+                towardLeft = true;
+        }
+
+        //draw new turnings and generate other turnings data
         for (; h < mapHeight; h++){
 
             farLeft.add(lastFarLeft);
