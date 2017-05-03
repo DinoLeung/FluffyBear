@@ -25,8 +25,6 @@ public class MainGame extends ApplicationAdapter {
     private int goalSpeed;
     private boolean speedFixed;
 
-//	SpriteBatch batch;
-//	ScrollingBackground scrollingBackground;
     Bridge bridge;
     Car car;
 
@@ -52,8 +50,6 @@ public class MainGame extends ApplicationAdapter {
         stage.getViewport().setWorldSize(this.rowNum * GRID_SIZE, (this.colNum / 2) * GRID_SIZE);
         stage.getViewport().setCamera(camera);
 
-
-//		scrollingBackground = new ScrollingBackground();
         bridge = new Bridge(rowNum, colNum, bridgeWidth, stage);
         car = new Car(stage);
 
@@ -65,7 +61,6 @@ public class MainGame extends ApplicationAdapter {
         Gdx.gl.glBlendFunc(GL20.GL_SRC_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA); //Allows transparent sprites/tiles
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 		this.stage.act(Gdx.graphics.getDeltaTime());
-//		this.scrollingBackground.updateAndRender(Gdx.graphics.getDeltaTime(), batch);
 
         this.stage.getBatch().begin();
         //pass the delta time over, so that the bridge can be move over time
@@ -90,7 +85,6 @@ public class MainGame extends ApplicationAdapter {
         this.colNum = (int)(height / imageSize) * 2;
 
 		this.stage.getViewport().update(width, height, true);
-//		this.scrollingBackground.resize(width,height);
         this.bridge.resize(width, height);
         this.car.resize(width, height);
 	}

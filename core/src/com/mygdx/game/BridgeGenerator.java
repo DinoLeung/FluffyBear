@@ -14,6 +14,7 @@ import java.util.Random;
 /**
  * Created by Dino on 03/04/2017.
  * Bridge texture from https://opengameart.org/content/lpc-style-wood-bridges-and-steel-flooring
+ * Water texture from https://opengameart.org/content/basic-map-32x32-by-silver-iv
  */
 
 public class BridgeGenerator {
@@ -68,11 +69,41 @@ public class BridgeGenerator {
 
     public void swapNextMap(){
         //swap new layer into map
-        map.getLayers().remove(0);
+        map.getLayers().remove(1);
         map.getLayers().add(nextLayer);
         layer = nextLayer;
         //ready the next map to swap in
         generateNextMap();
+    }
+
+    private TiledMapTileLayer generateBackgroundLayer(){
+        //create a empty map layer
+        TiledMapTileLayer backgroundLayer = new TiledMapTileLayer(mapWidth, mapHeight, gridSize, gridSize);
+
+        TiledMapTileLayer.Cell[] riverL = new TiledMapTileLayer.Cell[3];
+        TiledMapTileLayer.Cell[] riverR = new TiledMapTileLayer.Cell[3];
+        TiledMapTileLayer.Cell riverM = new TiledMapTileLayer.Cell().setTile(new StaticTiledMapTile(new TextureRegion(new Texture("River/M.png"))));
+
+        for(int i = 0; i < 3; i++){
+            riverL[i] = new TiledMapTileLayer.Cell().setTile(new StaticTiledMapTile(new TextureRegion(new Texture("River/L" + String.valueOf(i+1) + ".png"))));
+            riverR[i] = new TiledMapTileLayer.Cell().setTile(new StaticTiledMapTile(new TextureRegion(new Texture("River/R" + String.valueOf(i+1) + ".png"))));
+        }
+        for (int h = 0; h < mapHeight; h++){
+            for (int w = 0; w < mapWidth; w++){
+                if (w == 0)
+                    backgroundLayer.setCell(w, h, riverL[0]);
+                else if (w == 1)
+                    backgroundLayer.setCell(w, h, riverL[2]);
+                else if (w == mapWidth - 2)
+                    backgroundLayer.setCell(w, h, riverR[2]);
+                else if (w == mapWidth - 1)
+                    backgroundLayer.setCell(w, h, riverR[0]);
+                else
+                    backgroundLayer.setCell(w, h, riverM);
+            }
+        }
+
+        return backgroundLayer;
     }
 
     //private method to generate a screen long extension on the original map
@@ -211,7 +242,9 @@ public class BridgeGenerator {
                     towardLeft = true;
             }
         }
-        //add layer into map
+        //add background payer into map
+        map.getLayers().add(generateBackgroundLayer());
+        //add bridge layer into map
         map.getLayers().add(layer);
     }
 

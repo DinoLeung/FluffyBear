@@ -10,6 +10,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 
 /**
  * Created by dino on 29/4/17.
+ * Car texture from https://opengameart.org/content/roguelike-modern-city-pack
  */
 
 public class Car {
