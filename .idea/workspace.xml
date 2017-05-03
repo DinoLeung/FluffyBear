@@ -6,84 +6,203 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a74e4769-4002-4d9f-aa8a-ffa009fdf9a2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Car/L.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Car/R.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/River.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/badlogic.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/androidTest/debug/com/mygdx/game/test/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/AndroidLauncher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-safeguard/debug/tag.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/mygdx/game/AndroidLauncher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/mygdx/game/Bridge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/mygdx/game/BridgeGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/mygdx/game/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/mygdx/game/MyGdxGame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/mygdx/game/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/mygdx/game/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/mygdx/game/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/mygdx/game/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/mygdx/game/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/mygdx/game/ScrollingBackground.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/270P+c50V7f8KP2LslK5zqweRhc=" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/zip-cache/54zX6e7JymZxEnVQx56r5ZXAZ0M=" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/54zX6e7JymZxEnVQx56r5ZXAZ0M=" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/dependencies/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/slice_0/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/slice_1/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/slice_2/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/slice_3/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/slice_4/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/slice_5/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/slice_6/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/slice_7/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/slice_8/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-support/debug/slice_9/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/arm64-v8a/libgdx-box2d.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/arm64-v8a/libgdx.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi-v7a/libgdx-box2d.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi-v7a/libgdx.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi/libgdx-box2d.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/armeabi/libgdx.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86/libgdx-box2d.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86/libgdx.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86_64/libgdx-box2d.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/jniLibs/debug/x86_64/libgdx.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/core-1.0_c824e1acfae529cb46535af90a7e7119bb1e5369.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/debug_c8f50db107ddef53ddea57279342182f9bbc4f3c.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-1.9.5_3f305c8fbc33c3a4d3f5ccaa665769c27b73c61c.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-backend-android-1.9.5_89d8edcc6433a82b3cbdd85da3d5d21a31628244.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/pre-dexed/debug/gdx-box2d-1.9.5_50d42b4fa2f09ca8cfacc29a77206b10aa8077f2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/restart-dex/debug/build-info.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/dep/dependencies.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-1.9.5_3f305c8fbc33c3a4d3f5ccaa665769c27b73c61c/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-backend-android-1.9.5_89d8edcc6433a82b3cbdd85da3d5d21a31628244/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-box2d-1.9.5_50d42b4fa2f09ca8cfacc29a77206b10aa8077f2/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_773f9a0d9ae15369421c5303874dafd2c2235e35/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c9bd8af5152d7885d229d4ad2bd06c1adb13b488/classes.dex" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--1815615183/com/mygdx/game/Bridge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--1815615183/com/mygdx/game/BridgeGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--1815615183/com/mygdx/game/MyGdxGame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/folders/1/4/core-1.0.jar--1815615183/com/mygdx/game/ScrollingBackground.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mygdx/game/AndroidLauncher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mygdx/game/Bridge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mygdx/game/BridgeGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mygdx/game/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mygdx/game/MyGdxGame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mygdx/game/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mygdx/game/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mygdx/game/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mygdx/game/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mygdx/game/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mygdx/game/ScrollingBackground.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/android/tools/fd/dummy/slice_0.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/android/tools/fd/dummy/slice_1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/android/tools/fd/dummy/slice_2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/android/tools/fd/dummy/slice_3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/android/tools/fd/dummy/slice_4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/android/tools/fd/dummy/slice_5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/android/tools/fd/dummy/slice_6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/android/tools/fd/dummy/slice_7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/mygdx/game/AndroidLauncher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/mygdx/game/Bridge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/mygdx/game/BridgeGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/mygdx/game/BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/mygdx/game/MyGdxGame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/mygdx/game/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/mygdx/game/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/mygdx/game/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/mygdx/game/R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/mygdx/game/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/mygdx/game/ScrollingBackground.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/android/tools/fd/dummy/slice_8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/android/tools/fd/dummy/slice_9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/arm64-v8a/libgdx-box2d.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/arm64-v8a/libgdx.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libgdx-box2d.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi-v7a/libgdx.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi/libgdx-box2d.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/armeabi/libgdx.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libgdx-box2d.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libgdx.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libgdx-box2d.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86_64/libgdx.so" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug-unaligned.apk" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2qxilns8xo2s0ornj50s8ant2/com/mygdx/game/Bridge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2qxilns8xo2s0ornj50s8ant2/com/mygdx/game/BridgeGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2qxilns8xo2s0ornj50s8ant2/com/mygdx/game/MyGdxGame.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/build/tmp/expandedArchives/core-1.0.jar_2qxilns8xo2s0ornj50s8ant2/com/mygdx/game/ScrollingBackground.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/MyGdxGame.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L1.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L2.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L3.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L4.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L5.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L6.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L7.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L8.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/L8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R1.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R2.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R3.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R4.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R5.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R6.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R7.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R8.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/Bridge/R8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/River.png" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/River.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/assets/debug/badlogic.jpg" afterPath="$PROJECT_DIR$/android/build/intermediates/assets/debug/badlogic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/AndroidLauncher.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/AndroidLauncher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/BuildConfig.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R$attr.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R$drawable.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R$string.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R$style.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R.class" afterPath="$PROJECT_DIR$/android/build/intermediates/classes/debug/com/mygdx/game/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/compileDebugAidl/dependency.store" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/compileDebugAidl/dependency.store" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_android_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" afterPath="$PROJECT_DIR$/android/build/outputs/apk/android-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/Bridge.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/Bridge.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/BridgeGenerator.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/BridgeGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/MyGdxGame.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/MyGdxGame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/ScrollingBackground.class" afterPath="$PROJECT_DIR$/core/build/classes/main/com/mygdx/game/ScrollingBackground.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/build/tmp/jar/MANIFEST.MF" afterPath="$PROJECT_DIR$/core/build/tmp/jar/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/com/mygdx/game/BridgeGenerator.java" afterPath="$PROJECT_DIR$/core/src/com/mygdx/game/BridgeGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
     </list>
     <ignored path="FluffyBear.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,12 +234,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyGdxGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
+      <file leaf-file-name="MainGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MainGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="945">
+              <caret line="76" column="85" selection-start-line="76" selection-start-column="85" selection-end-line="76" selection-end-column="85" />
+              <folding>
+                <element signature="e#2858#2859#0" expanded="true" />
+                <element signature="e#2880#2881#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,10 +250,73 @@
       <file leaf-file-name="Bridge.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="366">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="method#resize#0;class#Bridge#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stage.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.5/df0e6a52ed42009b20ab64cc81e57c3ae24d9109/gdx-1.9.5-sources.jar!/com/badlogic/gdx/scenes/scene2d/Stage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1965">
+              <caret line="544" column="16" selection-start-line="544" selection-start-column="16" selection-end-line="544" selection-end-column="16" />
+              <folding>
+                <element signature="method#Stage#0;class#Stage#0" expanded="false" />
+                <element signature="method#Stage#1;class#Stage#0" expanded="false" />
+                <element signature="method#Stage#2;class#Stage#0" expanded="false" />
+                <element signature="method#draw#0;class#Stage#0" expanded="false" />
+                <element signature="method#drawDebug#0;class#Stage#0" expanded="false" />
+                <element signature="method#disableDebug#0;class#Stage#0" expanded="false" />
+                <element signature="method#act#1;class#Stage#0" expanded="false" />
+                <element signature="method#fireEnterAndExit#0;class#Stage#0" expanded="false" />
+                <element signature="method#touchDown#0;class#Stage#0" expanded="false" />
+                <element signature="method#touchDragged#0;class#Stage#0" expanded="false" />
+                <element signature="method#touchUp#0;class#Stage#0" expanded="false" />
+                <element signature="method#mouseMoved#0;class#Stage#0" expanded="false" />
+                <element signature="method#scrolled#0;class#Stage#0" expanded="false" />
+                <element signature="method#keyDown#0;class#Stage#0" expanded="false" />
+                <element signature="method#keyUp#0;class#Stage#0" expanded="false" />
+                <element signature="method#keyTyped#0;class#Stage#0" expanded="false" />
+                <element signature="method#addTouchFocus#0;class#Stage#0" expanded="false" />
+                <element signature="method#removeTouchFocus#0;class#Stage#0" expanded="false" />
+                <element signature="method#cancelTouchFocus#0;class#Stage#0" expanded="false" />
+                <element signature="method#cancelTouchFocusExcept#0;class#Stage#0" expanded="false" />
+                <element signature="method#addCaptureListener#0;class#Stage#0" expanded="false" />
+                <element signature="method#removeCaptureListener#0;class#Stage#0" expanded="false" />
+                <element signature="method#clear#0;class#Stage#0" expanded="false" />
+                <element signature="method#unfocusAll#0;class#Stage#0" expanded="false" />
+                <element signature="method#unfocus#0;class#Stage#0" expanded="false" />
+                <element signature="method#setKeyboardFocus#0;class#Stage#0" expanded="false" />
+                <element signature="method#setScrollFocus#0;class#Stage#0" expanded="false" />
+                <element signature="method#hit#0;class#Stage#0" expanded="false" />
+                <element signature="method#screenToStageCoordinates#0;class#Stage#0" expanded="false" />
+                <element signature="method#stageToScreenCoordinates#0;class#Stage#0" expanded="false" />
+                <element signature="method#toScreenCoordinates#0;class#Stage#0" expanded="false" />
+                <element signature="method#calculateScissors#0;class#Stage#0" expanded="false" />
+                <element signature="method#setActionsRequestRendering#0;class#Stage#0" expanded="false" />
+                <element signature="method#setDebugAll#0;class#Stage#0" expanded="false" />
+                <element signature="method#setDebugUnderMouse#0;class#Stage#0" expanded="false" />
+                <element signature="method#setDebugParentUnderMouse#0;class#Stage#0" expanded="false" />
+                <element signature="method#setDebugTableUnderMouse#0;class#Stage#0" expanded="false" />
+                <element signature="method#setDebugTableUnderMouse#1;class#Stage#0" expanded="false" />
+                <element signature="method#dispose#0;class#Stage#0" expanded="false" />
+                <element signature="class#TouchFocus#0;class#Stage#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -140,9 +325,10 @@
       <file leaf-file-name="BridgeGenerator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/BridgeGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+            <state relative-caret-position="681">
+              <caret line="166" column="33" selection-start-line="166" selection-start-column="33" selection-end-line="166" selection-end-column="33" />
               <folding>
+                <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
                 <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
                 <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
                 <element signature="method#generateRight#0;class#BridgeGenerator#0" expanded="false" />
@@ -156,8 +342,8 @@
       <file leaf-file-name="ScrollingBackground.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/ScrollingBackground.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="90">
+              <caret line="8" column="81" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -1823,7 +2009,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5971881662000" />
+        <entry key="$PROJECT_DIR$" value="5972059701000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2234,8 +2420,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="AndroidView">
@@ -2266,6 +2450,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2273,7 +2459,7 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="Nexus_5X_API_25" />
+    <property name="device.picker.selection" value="Nexus_6_API_25" />
     <property name="android.project.structure.last.selected" value="Authentication" />
     <property name="android.project.structure.proportion" value="0.15" />
   </component>
@@ -2623,9 +2809,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206687" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206687" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7887538" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.4951535" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2664,21 +2850,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-          <folding>
-            <element signature="method#resize#0;class#Bridge#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/BridgeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
           <folding>
+            <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateRight#0;class#BridgeGenerator#0" expanded="false" />
@@ -2696,14 +2873,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
@@ -2719,6 +2889,7 @@
         <state relative-caret-position="1020">
           <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
           <folding>
+            <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateRight#0;class#BridgeGenerator#0" expanded="false" />
@@ -2736,14 +2907,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="61" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
@@ -2759,6 +2923,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateRight#0;class#BridgeGenerator#0" expanded="false" />
@@ -2768,14 +2933,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="61" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
@@ -2791,6 +2949,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateRight#0;class#BridgeGenerator#0" expanded="false" />
@@ -2800,14 +2959,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
@@ -2823,6 +2975,7 @@
         <state relative-caret-position="1335">
           <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
+            <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateRight#0;class#BridgeGenerator#0" expanded="false" />
@@ -2840,30 +2993,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2879,6 +3011,7 @@
         <state relative-caret-position="690">
           <caret line="51" column="67" selection-start-line="51" selection-start-column="67" selection-end-line="51" selection-end-column="67" />
           <folding>
+            <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateRight#0;class#BridgeGenerator#0" expanded="false" />
@@ -2896,14 +3029,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2919,6 +3045,7 @@
         <state relative-caret-position="690">
           <caret line="51" column="67" selection-start-line="51" selection-start-column="67" selection-end-line="51" selection-end-column="67" />
           <folding>
+            <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateRight#0;class#BridgeGenerator#0" expanded="false" />
@@ -2936,14 +3063,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2967,6 +3087,7 @@
         <state relative-caret-position="45">
           <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
           <folding>
+            <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateRight#0;class#BridgeGenerator#0" expanded="false" />
@@ -2976,33 +3097,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/badlogic.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
+    <entry file="file://$PROJECT_DIR$/android/assets/badlogic.jpg" />
     <entry file="file://$PROJECT_DIR$/android/assets/River.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/assets/Bridge_Sprite.png" />
@@ -3021,16 +3131,58 @@
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Player.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/ScrollingBackground.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="90">
+          <caret line="8" column="81" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.5/df0e6a52ed42009b20ab64cc81e57c3ae24d9109/gdx-1.9.5-sources.jar!/com/badlogic/gdx/scenes/scene2d/Stage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
+        <state relative-caret-position="1965">
+          <caret line="544" column="16" selection-start-line="544" selection-start-column="16" selection-end-line="544" selection-end-column="16" />
+          <folding>
+            <element signature="method#Stage#0;class#Stage#0" expanded="false" />
+            <element signature="method#Stage#1;class#Stage#0" expanded="false" />
+            <element signature="method#Stage#2;class#Stage#0" expanded="false" />
+            <element signature="method#draw#0;class#Stage#0" expanded="false" />
+            <element signature="method#drawDebug#0;class#Stage#0" expanded="false" />
+            <element signature="method#disableDebug#0;class#Stage#0" expanded="false" />
+            <element signature="method#act#1;class#Stage#0" expanded="false" />
+            <element signature="method#fireEnterAndExit#0;class#Stage#0" expanded="false" />
+            <element signature="method#touchDown#0;class#Stage#0" expanded="false" />
+            <element signature="method#touchDragged#0;class#Stage#0" expanded="false" />
+            <element signature="method#touchUp#0;class#Stage#0" expanded="false" />
+            <element signature="method#mouseMoved#0;class#Stage#0" expanded="false" />
+            <element signature="method#scrolled#0;class#Stage#0" expanded="false" />
+            <element signature="method#keyDown#0;class#Stage#0" expanded="false" />
+            <element signature="method#keyUp#0;class#Stage#0" expanded="false" />
+            <element signature="method#keyTyped#0;class#Stage#0" expanded="false" />
+            <element signature="method#addTouchFocus#0;class#Stage#0" expanded="false" />
+            <element signature="method#removeTouchFocus#0;class#Stage#0" expanded="false" />
+            <element signature="method#cancelTouchFocus#0;class#Stage#0" expanded="false" />
+            <element signature="method#cancelTouchFocusExcept#0;class#Stage#0" expanded="false" />
+            <element signature="method#addCaptureListener#0;class#Stage#0" expanded="false" />
+            <element signature="method#removeCaptureListener#0;class#Stage#0" expanded="false" />
+            <element signature="method#clear#0;class#Stage#0" expanded="false" />
+            <element signature="method#unfocusAll#0;class#Stage#0" expanded="false" />
+            <element signature="method#unfocus#0;class#Stage#0" expanded="false" />
+            <element signature="method#setKeyboardFocus#0;class#Stage#0" expanded="false" />
+            <element signature="method#setScrollFocus#0;class#Stage#0" expanded="false" />
+            <element signature="method#hit#0;class#Stage#0" expanded="false" />
+            <element signature="method#screenToStageCoordinates#0;class#Stage#0" expanded="false" />
+            <element signature="method#stageToScreenCoordinates#0;class#Stage#0" expanded="false" />
+            <element signature="method#toScreenCoordinates#0;class#Stage#0" expanded="false" />
+            <element signature="method#calculateScissors#0;class#Stage#0" expanded="false" />
+            <element signature="method#setActionsRequestRendering#0;class#Stage#0" expanded="false" />
+            <element signature="method#setDebugAll#0;class#Stage#0" expanded="false" />
+            <element signature="method#setDebugUnderMouse#0;class#Stage#0" expanded="false" />
+            <element signature="method#setDebugParentUnderMouse#0;class#Stage#0" expanded="false" />
+            <element signature="method#setDebugTableUnderMouse#0;class#Stage#0" expanded="false" />
+            <element signature="method#setDebugTableUnderMouse#1;class#Stage#0" expanded="false" />
+            <element signature="method#dispose#0;class#Stage#0" expanded="false" />
+            <element signature="class#TouchFocus#0;class#Stage#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3041,18 +3193,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/MyGdxGame.java" />
+    <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="450">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/Bridge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="366">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
             <element signature="method#resize#0;class#Bridge#0" expanded="false" />
           </folding>
@@ -3061,9 +3216,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mygdx/game/BridgeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+        <state relative-caret-position="681">
+          <caret line="166" column="33" selection-start-line="166" selection-start-column="33" selection-end-line="166" selection-end-column="33" />
           <folding>
+            <element signature="method#generateNextMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateNewMap#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateLeft#0;class#BridgeGenerator#0" expanded="false" />
             <element signature="method#generateRight#0;class#BridgeGenerator#0" expanded="false" />
