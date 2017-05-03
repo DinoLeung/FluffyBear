@@ -40,7 +40,6 @@ public class MainGame extends ApplicationAdapter {
 	
 	@Override
 	public void create () {
-//        batch = new SpriteBatch();
 
         imageSize = Gdx.app.getGraphics().getWidth() / rowNum;
         colNum = (int)(Gdx.app.getGraphics().getHeight() / imageSize) * 2;
@@ -63,24 +62,25 @@ public class MainGame extends ApplicationAdapter {
 	@Override
 	public void render () {
 		Gdx.gl.glClearColor(0, 0, 0, 0);
+        Gdx.gl.glBlendFunc(GL20.GL_SRC_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA); //Allows transparent sprites/tiles
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-		stage.act(Gdx.graphics.getDeltaTime());
-
-//		batch.begin();
-        stage.draw();
+		this.stage.act(Gdx.graphics.getDeltaTime());
 //		this.scrollingBackground.updateAndRender(Gdx.graphics.getDeltaTime(), batch);
 
+        this.stage.getBatch().begin();
         //pass the delta time over, so that the bridge can be move over time
         float deltaTime = Gdx.graphics.getDeltaTime();
         this.bridge.updateAndRender(deltaTime);
         this.car.updateAndRender(deltaTime);
-//		batch.end();
+        this.stage.getBatch().end();
+
+        //stage has to be draw last, otherwise the car will be drawn under the bridge
+        this.stage.draw();
 	}
 	
 	@Override
 	public void dispose () {
 		stage.dispose();
-//		batch.dispose();
 	}
 
 	@Override
