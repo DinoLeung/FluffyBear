@@ -15,7 +15,7 @@ import com.badlogic.gdx.utils.viewport.ScalingViewport;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
 
-public class MyGdxGame extends ApplicationAdapter {
+public class MainGame extends ApplicationAdapter {
     public static final int DEFAULT_SPEED = 80;
     public static final int ACCELERATION = 50;
     public static final int GOAL_REACH_ACCELERATION = 200;
@@ -28,6 +28,8 @@ public class MyGdxGame extends ApplicationAdapter {
 //	SpriteBatch batch;
 //	ScrollingBackground scrollingBackground;
     Bridge bridge;
+    Car car;
+
 	Stage stage;
     Viewport viewport;
     OrthographicCamera camera;
@@ -38,7 +40,6 @@ public class MyGdxGame extends ApplicationAdapter {
 	
 	@Override
 	public void create () {
-//        batch = new SpriteBatch();
 
         imageSize = Gdx.app.getGraphics().getWidth() / rowNum;
         colNum = (int)(Gdx.app.getGraphics().getHeight() / imageSize) * 2;
@@ -54,27 +55,32 @@ public class MyGdxGame extends ApplicationAdapter {
 
 //		scrollingBackground = new ScrollingBackground();
         bridge = new Bridge(rowNum, colNum, bridgeWidth, stage);
+        car = new Car(stage);
+
 	}
 
 	@Override
 	public void render () {
 		Gdx.gl.glClearColor(0, 0, 0, 0);
+        Gdx.gl.glBlendFunc(GL20.GL_SRC_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA); //Allows transparent sprites/tiles
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
-		stage.act(Gdx.graphics.getDeltaTime());
-
-//		batch.begin();
-        stage.draw();
+		this.stage.act(Gdx.graphics.getDeltaTime());
 //		this.scrollingBackground.updateAndRender(Gdx.graphics.getDeltaTime(), batch);
 
+        this.stage.getBatch().begin();
         //pass the delta time over, so that the bridge can be move over time
-        this.bridge.updateAndRender(Gdx.graphics.getDeltaTime());
-//		batch.end();
+        float deltaTime = Gdx.graphics.getDeltaTime();
+        this.bridge.updateAndRender(deltaTime);
+        this.car.updateAndRender(deltaTime);
+        this.stage.getBatch().end();
+
+        //stage has to be draw last, otherwise the car will be drawn under the bridge
+        this.stage.draw();
 	}
 	
 	@Override
 	public void dispose () {
 		stage.dispose();
-//		batch.dispose();
 	}
 
 	@Override
@@ -85,6 +91,7 @@ public class MyGdxGame extends ApplicationAdapter {
 
 		this.stage.getViewport().update(width, height, true);
 //		this.scrollingBackground.resize(width,height);
-        this.bridge.resize(width,height);
+        this.bridge.resize(width, height);
+        this.car.resize(width, height);
 	}
 }
