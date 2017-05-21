@@ -3,6 +3,7 @@ package com.mygdx.game;
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.maps.tiled.TiledMapRenderer;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 import com.badlogic.gdx.scenes.scene2d.Stage;
@@ -25,6 +26,11 @@ public class Bridge {
 
     TiledMapRenderer tiledMapRenderer;
 
+    private int farLeft;
+    private int previousIndex = 0;
+    private float pixelCount = 0;
+
+
     /**
      *
      * @param rowNum number of row on map
@@ -35,7 +41,7 @@ public class Bridge {
     public Bridge(int rowNum, int colNum, int bridgeWidth, Stage stage){
 
         // for logcat output
-        Gdx.app.setLogLevel(Application.LOG_DEBUG);
+//        Gdx.app.setLogLevel(Application.LOG_DEBUG);
 
         this.stage = stage;
 
@@ -50,21 +56,56 @@ public class Bridge {
 
         tiledMapRenderer = new OrthogonalTiledMapRenderer(this.generator.map);
 
-        //hacky way to prevent lag on the first swap
-//        this.generator.swapNextMap();
+    }
+
+    public TiledMap getMap(){
+        return this.generator.map;
+    }
+
+    public int getFarLeft(){
+        return this.farLeft;
+    }
+
+    private void updateFarLeft(float deltaTime){
+
+        int index = (int)stage.getViewport().getCamera().position.y / MainGame.GRID_SIZE;
+        index += 1;
+
+        if (index != previousIndex){
+            previousIndex = index;
+            pixelCount = 0;
+        }
+
+        pixelCount += deltaTime;
+
+        int currentFarLeft = generator.getCollisionFarLeft().get(index) * MainGame.GRID_SIZE;
+        boolean currentTowardLeft = generator.getCollisionDirection().get(index);
+
+        int previous = generator.getCollisionFarLeft().get(index - 1);
+
+        if (currentTowardLeft) {
+            currentFarLeft += MainGame.GRID_SIZE * 2;
+            this.farLeft = currentFarLeft - (int)pixelCount;
+        }
+        else
+            this.farLeft = currentFarLeft + (int)pixelCount;
     }
 
     public void updateAndRender(float deltaTime){
 
         if (stage.getViewport().getCamera().position.y - initialCameraY >= stage.getViewport().getCamera().viewportHeight) {
             //swap new map in
-            Gdx.app.debug("updateAndRender", "SWAP");
+//            Gdx.app.debug("updateAndRender", "SWAP");
             this.generator.swapNextMap();
             //bring the camera back to the original point
             stage.getViewport().getCamera().position.y = initialCameraY;
         }else
             //keep moving the camera
             stage.getViewport().getCamera().position.y += 100.0f * deltaTime;
+
+        updateFarLeft(200.0f * deltaTime);
+
+//        Gdx.app.log("LOG CAMERA Y", String.valueOf(stage.getViewport().getCamera().position.y));
 
         stage.getViewport().getCamera().update();
         tiledMapRenderer.setView((OrthographicCamera)stage.getViewport().getCamera());
