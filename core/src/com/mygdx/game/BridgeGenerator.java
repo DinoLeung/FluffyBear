@@ -29,19 +29,24 @@ public class BridgeGenerator {
 
     TiledMap map;
 
-    TiledMapTileLayer layer;
+    private TiledMapTileLayer BridgeLayer;
+//    private TiledMapTileLayer CollisionLayer;
 
-    Array<Integer> farLeft;
-    Array<Boolean> direction;
+    private Array<Integer> farLeft;
+    private Array<Boolean> direction;
 
-    TiledMapTileLayer nextLayer;
+    private Array<Integer> collisionFarLeft;
+    private Array<Boolean> collisionDirection;
 
-    Random r;
+    private TiledMapTileLayer nextBridgeLayer;
+//    private TiledMapTileLayer nextCollisionLayer;
+
+    private Random r;
 
     public BridgeGenerator(int bridgeWidth, int mapWidth, int mapHeight, int gridSize){
 
         // for logcat output
-        Gdx.app.setLogLevel(Application.LOG_DEBUG);
+//        Gdx.app.setLogLevel(Application.LOG_DEBUG);
 
         this.bridgeWidth = bridgeWidth;
         this.mapWidth = mapWidth;
@@ -69,11 +74,21 @@ public class BridgeGenerator {
 
     public void swapNextMap(){
         //swap new layer into map
-        map.getLayers().remove(1);
-        map.getLayers().add(nextLayer);
-        layer = nextLayer;
+        map.getLayers().remove(map.getLayers().getIndex("bridge"));
+//        map.getLayers().remove(map.getLayers().getIndex("collision"));
+        map.getLayers().add(nextBridgeLayer);
+//        map.getLayers().add(nextCollisionLayer);
+        BridgeLayer = nextBridgeLayer;
+//        CollisionLayer = nextCollisionLayer;
         //ready the next map to swap in
         generateNextMap();
+    }
+
+    public Array<Integer> getCollisionFarLeft(){
+        return collisionFarLeft;
+    }
+    public Array<Boolean> getCollisionDirection(){
+        return collisionDirection;
     }
 
     private TiledMapTileLayer generateBackgroundLayer(){
@@ -109,8 +124,15 @@ public class BridgeGenerator {
     //private method to generate a screen long extension on the original map
     private void generateNextMap(){
 
+        //a copy of the far left data for the collision detection
+        this.collisionFarLeft = new Array<Integer>(farLeft);
+        this.collisionDirection = new Array<Boolean>(direction);
+
         //create a empty map layer
-        nextLayer = new TiledMapTileLayer(mapWidth, mapHeight, gridSize, gridSize);
+        nextBridgeLayer = new TiledMapTileLayer(mapWidth, mapHeight, gridSize, gridSize);
+        nextBridgeLayer.setName("bridge");
+//        nextCollisionLayer = new TiledMapTileLayer(mapWidth, mapHeight, gridSize, gridSize);
+//        nextCollisionLayer.setName("collision");
 
         //remove first half
         direction.removeRange(0, mapHeight/2 -1);
@@ -198,7 +220,10 @@ public class BridgeGenerator {
     private void generateNewMap(){
 
         //create a empty map layer
-        layer = new TiledMapTileLayer(mapWidth, mapHeight, gridSize, gridSize);
+        BridgeLayer = new TiledMapTileLayer(mapWidth, mapHeight, gridSize, gridSize);
+        BridgeLayer.setName("bridge");
+//        CollisionLayer = new TiledMapTileLayer(mapWidth, mapHeight, gridSize, gridSize);
+//        CollisionLayer.setName("collision");
 
         farLeft = new Array<Integer>();
         direction = new Array<Boolean>();
@@ -217,14 +242,14 @@ public class BridgeGenerator {
                 lastFarLeft = generateLeft(h, lastFarLeft);
 
                 //decide direction for next
-                if (r.nextBoolean()) //keep going left
+//                if (r.nextBoolean()) //keep going left
                     //check if reach far left
                     if (lastFarLeft <= 0) //turn right
                         towardLeft = false;
                     else //continue on left
                         lastFarLeft -= 2;
-                else //turn right next
-                    towardLeft = false;
+//                else //turn right next
+//                    towardLeft = false;
 
             }else{ //going right
 
@@ -232,31 +257,32 @@ public class BridgeGenerator {
                 lastFarLeft = generateRight(h, lastFarLeft);
 
                 //decide direction for next
-                if (r.nextBoolean()) //keep going right
+//                if (r.nextBoolean()) //keep going right
                     //check if reach far right
                     if (lastFarLeft + bridgeWidth + 4 >= mapWidth) //turn left
                         towardLeft = true;
                     else //continue on right
                         lastFarLeft += 2;
-                else //turn left
-                    towardLeft = true;
+//                else //turn left
+//                    towardLeft = true;
             }
         }
         //add background payer into map
         map.getLayers().add(generateBackgroundLayer());
         //add bridge layer into map
-        map.getLayers().add(layer);
+        map.getLayers().add(BridgeLayer);
+//        map.getLayers().add(CollisionLayer);
     }
 
     //private method drawing a row of bridge on the map toward left on original layer
     private int generateLeft(int h, int lastFarLeft){
         int temp = 0;
-        layer.setCell(lastFarLeft + temp++, h, bridgeL[0]);
-        layer.setCell(lastFarLeft + temp++, h, bridgeL[1]);
+        BridgeLayer.setCell(lastFarLeft + temp++, h, bridgeL[0]);
+        BridgeLayer.setCell(lastFarLeft + temp++, h, bridgeL[1]);
         for (int i = 0; i<bridgeWidth; i++)
-            layer.setCell(lastFarLeft + temp++, h, bridgeL[2]);
-        layer.setCell(lastFarLeft + temp++, h, bridgeL[3]);
-        layer.setCell(lastFarLeft + temp++, h, bridgeL[4]);
+            BridgeLayer.setCell(lastFarLeft + temp++, h, bridgeL[2]);
+        BridgeLayer.setCell(lastFarLeft + temp++, h, bridgeL[3]);
+        BridgeLayer.setCell(lastFarLeft + temp++, h, bridgeL[4]);
 
         return lastFarLeft;
     }
@@ -264,12 +290,12 @@ public class BridgeGenerator {
     //private method drawing a row of bridge on the map toward right on original layer
     private int generateRight(int h, int lastFarLeft){
         int temp = 0;
-        layer.setCell(lastFarLeft + temp++, h, bridgeR[0]);
-        layer.setCell(lastFarLeft + temp++, h, bridgeR[1]);
+        BridgeLayer.setCell(lastFarLeft + temp++, h, bridgeR[0]);
+        BridgeLayer.setCell(lastFarLeft + temp++, h, bridgeR[1]);
         for (int i = 0; i<bridgeWidth; i++)
-            layer.setCell(lastFarLeft + temp++, h, bridgeR[2]);
-        layer.setCell(lastFarLeft + temp++, h, bridgeR[3]);
-        layer.setCell(lastFarLeft + temp++, h, bridgeR[4]);
+            BridgeLayer.setCell(lastFarLeft + temp++, h, bridgeR[2]);
+        BridgeLayer.setCell(lastFarLeft + temp++, h, bridgeR[3]);
+        BridgeLayer.setCell(lastFarLeft + temp++, h, bridgeR[4]);
 
         return lastFarLeft;
     }
@@ -277,12 +303,12 @@ public class BridgeGenerator {
     //private method drawing a row of bridge on the map toward left on next layer
     private int generateLeftNext(int h, int lastFarLeft){
         int temp = 0;
-        nextLayer.setCell(lastFarLeft + temp++, h, bridgeL[0]);
-        nextLayer.setCell(lastFarLeft + temp++, h, bridgeL[1]);
+        nextBridgeLayer.setCell(lastFarLeft + temp++, h, bridgeL[0]);
+        nextBridgeLayer.setCell(lastFarLeft + temp++, h, bridgeL[1]);
         for (int i = 0; i<bridgeWidth; i++)
-            nextLayer.setCell(lastFarLeft + temp++, h, bridgeL[2]);
-        nextLayer.setCell(lastFarLeft + temp++, h, bridgeL[3]);
-        nextLayer.setCell(lastFarLeft + temp++, h, bridgeL[4]);
+            nextBridgeLayer.setCell(lastFarLeft + temp++, h, bridgeL[2]);
+        nextBridgeLayer.setCell(lastFarLeft + temp++, h, bridgeL[3]);
+        nextBridgeLayer.setCell(lastFarLeft + temp++, h, bridgeL[4]);
 
         return lastFarLeft;
     }
@@ -290,12 +316,12 @@ public class BridgeGenerator {
     //private method drawing a row of bridge on the map toward right on next layer
     private int generateRightNext(int h, int lastFarLeft){
         int temp = 0;
-        nextLayer.setCell(lastFarLeft + temp++, h, bridgeR[0]);
-        nextLayer.setCell(lastFarLeft + temp++, h, bridgeR[1]);
+        nextBridgeLayer.setCell(lastFarLeft + temp++, h, bridgeR[0]);
+        nextBridgeLayer.setCell(lastFarLeft + temp++, h, bridgeR[1]);
         for (int i = 0; i<bridgeWidth; i++)
-            nextLayer.setCell(lastFarLeft + temp++, h, bridgeR[2]);
-        nextLayer.setCell(lastFarLeft + temp++, h, bridgeR[3]);
-        nextLayer.setCell(lastFarLeft + temp++, h, bridgeR[4]);
+            nextBridgeLayer.setCell(lastFarLeft + temp++, h, bridgeR[2]);
+        nextBridgeLayer.setCell(lastFarLeft + temp++, h, bridgeR[3]);
+        nextBridgeLayer.setCell(lastFarLeft + temp++, h, bridgeR[4]);
 
         return lastFarLeft;
     }
