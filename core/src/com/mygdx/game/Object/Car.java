@@ -1,4 +1,4 @@
-package com.mygdx.game;
+package com.mygdx.game.Object;
 
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
@@ -12,6 +12,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.BaseDrawable;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
+import com.mygdx.game.MainGame;
 
 /**
  * Created by dino on 29/4/17.

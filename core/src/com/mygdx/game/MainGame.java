@@ -1,37 +1,16 @@
 package com.mygdx.game;
 
 import com.badlogic.gdx.Application;
-import com.badlogic.gdx.ApplicationAdapter;
-import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.audio.Sound;
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
-import com.badlogic.gdx.graphics.PerspectiveCamera;
-import com.badlogic.gdx.graphics.Pixmap;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.GlyphLayout;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.badlogic.gdx.maps.MapLayer;
-import com.badlogic.gdx.maps.MapObjects;
-import com.badlogic.gdx.maps.objects.RectangleMapObject;
-import com.badlogic.gdx.maps.tiled.TiledMap;
-import com.badlogic.gdx.maps.tiled.TiledMapTileLayer;
-import com.badlogic.gdx.math.Intersector;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.badlogic.gdx.utils.Scaling;
-import com.badlogic.gdx.utils.viewport.FillViewport;
-import com.badlogic.gdx.utils.viewport.FitViewport;
-import com.badlogic.gdx.utils.viewport.ScalingViewport;
-import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
-
-import java.awt.Point;
+import com.mygdx.game.Object.Car;
+import com.mygdx.game.Object.ScoreBoard;
 
 public class MainGame implements Screen{
     public static final int DEFAULT_SPEED = 80;
@@ -45,9 +24,9 @@ public class MainGame implements Screen{
     private int goalSpeed;
     private boolean speedFixed;
 
-    Bridge bridge;
-    Car car;
-    ScoreBoard scoreBoard;
+    com.mygdx.game.Object.Bridge bridge;
+    com.mygdx.game.Object.Car car;
+    com.mygdx.game.Object.ScoreBoard scoreBoard;
 
     Stage stage;
     Viewport viewport;
@@ -82,7 +61,7 @@ public class MainGame implements Screen{
         stage.getViewport().setWorldSize(this.rowNum * GRID_SIZE, (this.colNum / 2) * GRID_SIZE);
         stage.getViewport().setCamera(camera);
 
-        bridge = new Bridge(rowNum, colNum, bridgeWidth, stage);
+        bridge = new com.mygdx.game.Object.Bridge(rowNum, colNum, bridgeWidth, stage);
         car = new Car(stage);
         scoreBoard = new ScoreBoard(stage, score, launcher.fontUltraSmall);
 

@@ -1,12 +1,11 @@
-package com.mygdx.game;
+package com.mygdx.game.Object;
 
-import com.badlogic.gdx.Application;
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
-import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.maps.tiled.TiledMapRenderer;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.mygdx.game.Util.BridgeGenerator;
+import com.mygdx.game.MainGame;
 
 /**
  * Created by Dino on 03/04/2017.
