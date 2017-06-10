@@ -41,6 +41,13 @@ public class BridgeGenerator {
 
     private Random r;
 
+    /**
+     *
+     * @param bridgeWidth
+     * @param mapWidth
+     * @param mapHeight
+     * @param gridSize
+     */
     public BridgeGenerator(int bridgeWidth, int mapWidth, int mapHeight, int gridSize){
 
         // for logcat output
@@ -70,6 +77,9 @@ public class BridgeGenerator {
         generateNextMap();
     }
 
+    /**
+     * the method to call generate map method and swap map
+     */
     public void swapNextMap(){
         //swap new layer into map
         map.getLayers().remove(map.getLayers().getIndex("bridge"));
@@ -82,6 +92,7 @@ public class BridgeGenerator {
     public Array<Integer> getCollisionFarLeft(){
         return collisionFarLeft;
     }
+
     public Array<Boolean> getCollisionDirection(){
         return collisionDirection;
     }

@@ -13,7 +13,7 @@ import com.mygdx.game.MainGame;
 
 public class Bridge {
 
-    private Stage stage;
+    final Stage stage;
 
     private int rowNum;
     private int colNum;
@@ -37,7 +37,7 @@ public class Bridge {
      * @param bridgeWidth width of the bridge, min value 0
      * @param stage
      */
-    public Bridge(int rowNum, int colNum, int bridgeWidth, Stage stage){
+    public Bridge(int rowNum, int colNum, int bridgeWidth, final Stage stage){
 
         // for logcat output
 //        Gdx.app.setLogLevel(Application.LOG_DEBUG);
@@ -105,12 +105,8 @@ public class Bridge {
 //        Gdx.app.log("LOG CAMERA Y", String.valueOf(stage.getViewport().getCamera().position.y));
 
         this.stage.getViewport().getCamera().update();
-        this.tiledMapRenderer.setView((OrthographicCamera)stage.getViewport().getCamera());
+        this.tiledMapRenderer.setView((OrthographicCamera)this.stage.getViewport().getCamera());
         this.tiledMapRenderer.render();
-    }
-
-    public void resize(int width, int height){
-
     }
 
 }

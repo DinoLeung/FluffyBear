@@ -22,7 +22,7 @@ import com.mygdx.game.MainGame;
 public class Car {
 
     private float initialCameraY;
-    private Stage stage;
+    final Stage stage;
 
     private Texture leftTexture;
     private Texture rightTexture;
@@ -32,7 +32,7 @@ public class Car {
     public boolean facingLeft = false;
     private Image carImage = null;
 
-    public Car(Stage stage) {
+    public Car(final Stage stage) {
 
         // for logcat output
 //        Gdx.app.setLogLevel(Application.LOG_DEBUG);
@@ -56,7 +56,6 @@ public class Car {
                 this.carImage.getImageHeight());
     }
 
-
     public void changeDirection(){
         facingLeft = !facingLeft;
         if(facingLeft)
@@ -66,10 +65,10 @@ public class Car {
     }
 
     public void updateAndRender(float deltaTime){
-        if (stage.getViewport().getCamera().position.y - initialCameraY >=
-                stage.getViewport().getCamera().viewportHeight)
+        if (this.stage.getViewport().getCamera().position.y - initialCameraY >=
+                this.stage.getViewport().getCamera().viewportHeight)
             //bring the car back to the original point when map refresh
-            this.carImage.setY(this.carImage.getY() - stage.getHeight());
+            this.carImage.setY(this.carImage.getY() - this.stage.getHeight());
         else
             //keep moving the car with the camera
             this.carImage.setY(this.carImage.getY() + (100.0f * deltaTime));
@@ -87,12 +86,8 @@ public class Car {
 //        Gdx.app.log("LOG CAR Y", String.valueOf(this.playerDeltaRectangle.getY()));
     }
 
-
     public Rectangle getPlayerDeltaRectangle(){
         return this.playerDeltaRectangle;
     }
 
-    public void resize(int width, int height){
-
-    }
 }

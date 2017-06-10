@@ -14,10 +14,16 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 public class ScoreBoard extends Label {
 
     private float initialCameraY;
-    private Stage stage;
+    final  Stage stage;
     private BitmapFont font;
 
-    public ScoreBoard(Stage stage, float score, BitmapFont font) {
+    /**
+     *
+     * @param stage
+     * @param score
+     * @param font
+     */
+    public ScoreBoard(final Stage stage, float score, BitmapFont font) {
         super(String.valueOf((int)score), new LabelStyle(font, Color.WHITE));
         this.stage = stage;
         this.font = font;
@@ -39,10 +45,10 @@ public class ScoreBoard extends Label {
         //move to the left when the score has multiple digits
         this.setX(this.stage.getViewport().getWorldWidth() - this.getWidth() * (this.getText().length));
 
-        if (stage.getViewport().getCamera().position.y - initialCameraY >=
-                stage.getViewport().getCamera().viewportHeight)
+        if (this.stage.getViewport().getCamera().position.y - initialCameraY >=
+                this.stage.getViewport().getCamera().viewportHeight)
             //bring the label back to the original point when map refresh
-            this.setY(this.getY() - stage.getHeight());
+            this.setY(this.getY() - this.stage.getHeight());
         else
             //keep moving the label with the camera
             this.setY(this.getY() + (100.0f * deltaTime));

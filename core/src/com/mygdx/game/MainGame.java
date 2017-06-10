@@ -12,24 +12,21 @@ import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mygdx.game.Object.Car;
 import com.mygdx.game.Object.ScoreBoard;
 
+/**
+ * Created by Dino on 03/04/2017.
+ * Water splash sound effect from https://opengameart.org/content/water-splash-yo-frankie
+ */
+
 public class MainGame implements Screen{
-    public static final int DEFAULT_SPEED = 80;
-    public static final int ACCELERATION = 50;
-    public static final int GOAL_REACH_ACCELERATION = 200;
     public static final int GRID_SIZE = 32;
 
     final GameLauncher launcher;
-
-    private int speed;
-    private int goalSpeed;
-    private boolean speedFixed;
 
     com.mygdx.game.Object.Bridge bridge;
     com.mygdx.game.Object.Car car;
     com.mygdx.game.Object.ScoreBoard scoreBoard;
 
-    Stage stage;
-    Viewport viewport;
+    private Stage stage;
     OrthographicCamera camera;
     private int rowNum = 12;
     private int colNum;
@@ -130,10 +127,7 @@ public class MainGame implements Screen{
 //		super.resize(width, height);
         this.imageSize = width / rowNum;
         this.colNum = (int)(height / imageSize) * 2;
-
         this.stage.getViewport().update(width, height, true);
-        this.bridge.resize(width, height);
-        this.car.resize(width, height);
     }
 
     @Override
