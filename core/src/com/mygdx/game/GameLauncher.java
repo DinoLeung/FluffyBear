@@ -4,6 +4,7 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 
 /**
  * Created by dino on 10/6/17.
@@ -19,13 +20,14 @@ public class GameLauncher extends Game {
     @Override
     public void create() {
 
-//        FreeTypeFontGenerator generator = new FreeTypeFontGenerator(Gdx.files.internal("3Dventure.ttf"));
-//        FreeTypeFontGenerator.FreeTypeFontParameter parameter = new FreeTypeFontGenerator.FreeTypeFontParameter();
-//        parameter.size = 12;
-//        fontSmall = generator.generateFont(parameter);
-//        parameter.size = 20;
-//        fontBig = generator.generateFont(parameter);
-//        generator.dispose();
+        FreeTypeFontGenerator generator = new FreeTypeFontGenerator(Gdx.files.internal("Font/3Dventure.ttf"));
+        FreeTypeFontGenerator.FreeTypeFontParameter parameter = new FreeTypeFontGenerator.FreeTypeFontParameter();
+        parameter.size = 12;
+        fontSmall = generator.generateFont(parameter);
+        parameter.size = 100;
+        fontBig = generator.generateFont(parameter);
+        generator.dispose();
+
         font = new BitmapFont();
         batch = new SpriteBatch();
         this.setScreen(new StartScreen(this));

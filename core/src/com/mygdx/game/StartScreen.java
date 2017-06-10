@@ -35,7 +35,7 @@ public class StartScreen implements Screen{
 
         launcher.batch.begin();
 //        launcher.font.draw(launcher.batch, "Welcome!!!", 100, 150);
-        launcher.font.draw(launcher.batch, "Tap anywhere to begin!",
+        launcher.fontBig.draw(launcher.batch, "Tap anywhere to begin!",
                 Gdx.app.getGraphics().getWidth()/3,
                 Gdx.app.getGraphics().getHeight()/2);
         launcher.batch.end();
