@@ -97,6 +97,7 @@ public class MainGame implements Screen{
             Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
             this.stage.act(delta);
 
+            //score counting
             score += delta;
             scoreBoard.setScore(score);
 
@@ -105,8 +106,8 @@ public class MainGame implements Screen{
                 this.car.changeDirection();
 
             this.stage.getBatch().begin();
-            //pass the delta time over, so that the bridge can be move over time
-            float deltaTime = delta;
+            //increase delta time over time, moves objects faster to make the game harder
+            float deltaTime = delta * (1 + (score / 100));
             this.bridge.updateAndRender(deltaTime);
             this.car.updateAndRender(deltaTime);
             this.scoreBoard.updateAndRender(deltaTime);
