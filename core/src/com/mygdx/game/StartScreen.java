@@ -4,6 +4,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 
 /**
  * Created by dino on 10/6/17.
@@ -35,9 +36,31 @@ public class StartScreen implements Screen{
 
         launcher.batch.begin();
 //        launcher.font.draw(launcher.batch, "Welcome!!!", 100, 150);
-        launcher.fontBig.draw(launcher.batch, "Tap anywhere to begin!",
-                Gdx.app.getGraphics().getWidth()/3,
-                Gdx.app.getGraphics().getHeight()/2);
+
+        String tap = "TAP";
+        GlyphLayout Tap = new GlyphLayout(launcher.fontBig, tap);
+        String anywhere = "ANYWHERE";
+        GlyphLayout Anywhere = new GlyphLayout(launcher.fontBig, anywhere);
+        String to = "TO";
+        GlyphLayout To = new GlyphLayout(launcher.fontBig, to);
+        String start = "START";
+        GlyphLayout Start = new GlyphLayout(launcher.fontBig, start);
+
+        float height = To.height;
+
+        launcher.fontBig.draw(launcher.batch, Tap,
+                (Gdx.app.getGraphics().getWidth()-Tap.width)/2,
+                (Gdx.app.getGraphics().getHeight()-height)/2 + height*4);
+        launcher.fontBig.draw(launcher.batch, Anywhere,
+                (Gdx.app.getGraphics().getWidth()-Anywhere.width)/2,
+                (Gdx.app.getGraphics().getHeight()-height)/2 + height*2);
+        launcher.fontBig.draw(launcher.batch, To,
+                (Gdx.app.getGraphics().getWidth()-To.width)/2,
+                (Gdx.app.getGraphics().getHeight()-height)/2);
+        launcher.fontBig.draw(launcher.batch, Start,
+                (Gdx.app.getGraphics().getWidth()-Start.width)/2,
+                (Gdx.app.getGraphics().getHeight()-height)/2 - height*2);
+
         launcher.batch.end();
 
         if (Gdx.input.justTouched()) {

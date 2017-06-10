@@ -24,7 +24,7 @@ public class GameLauncher extends Game {
         FreeTypeFontGenerator.FreeTypeFontParameter parameter = new FreeTypeFontGenerator.FreeTypeFontParameter();
         parameter.size = 12;
         fontSmall = generator.generateFont(parameter);
-        parameter.size = 100;
+        parameter.size = 200;
         fontBig = generator.generateFont(parameter);
         generator.dispose();
 
