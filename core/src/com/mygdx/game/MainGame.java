@@ -2,6 +2,7 @@ package com.mygdx.game;
 
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.ApplicationAdapter;
+import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.graphics.Color;
@@ -10,6 +11,7 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.PerspectiveCamera;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.maps.MapLayer;
@@ -56,7 +58,7 @@ public class MainGame extends ApplicationAdapter implements InputProcessor {
 	public void create () {
 //    batch = new SpriteBatch();
         // for logcat output
-//        Gdx.app.setLogLevel(Application.LOG_DEBUG);
+        Gdx.app.setLogLevel(Application.LOG_DEBUG);
 
         imageSize = Gdx.app.getGraphics().getWidth() / rowNum;
         colNum = (int)(Gdx.app.getGraphics().getHeight() / imageSize) * 2;
@@ -73,10 +75,8 @@ public class MainGame extends ApplicationAdapter implements InputProcessor {
         car = new Car(stage);
 
         Gdx.input.setInputProcessor(this);
-
 	}
 
-//    SpriteBatch batch;
 	@Override
 	public void render () {
         if (this.gameState){
@@ -87,12 +87,12 @@ public class MainGame extends ApplicationAdapter implements InputProcessor {
 
             this.stage.getBatch().begin();
             //pass the delta time over, so that the bridge can be move over time
-            float deltaTime = Gdx.graphics.getDeltaTime() / 10;
+            float deltaTime = Gdx.graphics.getDeltaTime() / 3;
             this.bridge.updateAndRender(deltaTime);
             this.car.updateAndRender(deltaTime);
             this.stage.getBatch().end();
 
-            //check collision
+            //check collision, more like checking if the car is in range of the bridge length
             if (!collision())
                 this.gameState = false;
 
@@ -102,25 +102,17 @@ public class MainGame extends ApplicationAdapter implements InputProcessor {
         }
 	}
 
-    private int[][] getPositions(){
-
-        final Rectangle r =car.getPlayerDeltaRectangle();
-        return new int[][]{
-                new int[]{(int)r.x, (int)(r.y+r.height)},
-//                    new int[]{(int)(r.x+r.width), (int)r.y},
-//                    new int[]{(int)r.x, (int)(r.y)},
-                new int[]{(int)(r.x+r.width), (int)(r.y+r.height)}
-        };
-
-    }
-
 	private boolean collision(){
         int bridgeLeft = this.bridge.getFarLeft();
         int bridgeRight = bridgeLeft + ((2 + this.bridgeWidth) * this.GRID_SIZE);
 
         Rectangle r =car.getPlayerDeltaRectangle();
 
-        return ((bridgeLeft < r.x) && (bridgeRight > (r.x + r.width)));
+        Gdx.app.log("COLLISION LEFT", String.valueOf(bridgeLeft) + " " + String.valueOf(r.x ));
+        Gdx.app.log("COLLISION RIGHT", String.valueOf(bridgeRight) + " " + String.valueOf(r.x + (this.GRID_SIZE * 0.25)));
+
+        return ((bridgeLeft < r.x ) &&
+                (bridgeRight > r.x + (this.GRID_SIZE * 0.25)));
     }
 	
 	@Override

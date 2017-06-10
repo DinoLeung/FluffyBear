@@ -54,20 +54,20 @@ public class Car {
                 this.carImage.getY(),
                 this.carImage.getImageWidth(),
                 this.carImage.getImageHeight());
-
     }
 
 
     public void changeDirection(){
         facingLeft = !facingLeft;
         if(facingLeft)
-            carImage.setDrawable(new TextureRegionDrawable(new TextureRegion(leftTexture)));
+            this.carImage.setDrawable(new TextureRegionDrawable(new TextureRegion(leftTexture)));
         else
-            carImage.setDrawable(new TextureRegionDrawable(new TextureRegion(rightTexture)));
+            this.carImage.setDrawable(new TextureRegionDrawable(new TextureRegion(rightTexture)));
     }
 
     public void updateAndRender(float deltaTime){
-        if (stage.getViewport().getCamera().position.y - initialCameraY >= stage.getViewport().getCamera().viewportHeight)
+        if (stage.getViewport().getCamera().position.y - initialCameraY >=
+                stage.getViewport().getCamera().viewportHeight)
             //bring the car back to the original point when map refresh
             this.carImage.setY(this.carImage.getY() - stage.getHeight());
         else

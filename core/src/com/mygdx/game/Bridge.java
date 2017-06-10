@@ -52,14 +52,10 @@ public class Bridge {
 
         this.generator = new BridgeGenerator(this.bridgeWidth, this.rowNum, this.colNum, MainGame.GRID_SIZE);
 
-        initialCameraY = stage.getViewport().getCamera().position.y;
+        this.initialCameraY = stage.getViewport().getCamera().position.y;
 
-        tiledMapRenderer = new OrthogonalTiledMapRenderer(this.generator.map);
+        this.tiledMapRenderer = new OrthogonalTiledMapRenderer(this.generator.map);
 
-    }
-
-    public TiledMap getMap(){
-        return this.generator.map;
     }
 
     public int getFarLeft(){
@@ -68,48 +64,50 @@ public class Bridge {
 
     private void updateFarLeft(float deltaTime){
 
-        int index = (int)stage.getViewport().getCamera().position.y / MainGame.GRID_SIZE;
+        int index = (int)this.stage.getViewport().getCamera().position.y / MainGame.GRID_SIZE;
         index += 1;
 
-        if (index != previousIndex){
-            previousIndex = index;
-            pixelCount = 0;
+        if (index != this.previousIndex){
+            this.previousIndex = index;
+            this.pixelCount = 0;
         }
 
-        pixelCount += deltaTime;
+        this.pixelCount += deltaTime;
 
-        int currentFarLeft = generator.getCollisionFarLeft().get(index) * MainGame.GRID_SIZE;
-        boolean currentTowardLeft = generator.getCollisionDirection().get(index);
+        int currentFarLeft = this.generator.getCollisionFarLeft().get(index) * MainGame.GRID_SIZE;
+        boolean currentTowardLeft = this.generator.getCollisionDirection().get(index);
 
-        int previous = generator.getCollisionFarLeft().get(index - 1);
+        int previous = this.generator.getCollisionFarLeft().get(index - 1);
 
         if (currentTowardLeft) {
             currentFarLeft += MainGame.GRID_SIZE * 2;
-            this.farLeft = currentFarLeft - (int)pixelCount;
+            this.farLeft = currentFarLeft - (int)this.pixelCount;
         }
         else
-            this.farLeft = currentFarLeft + (int)pixelCount;
+            this.farLeft = currentFarLeft + (int)this.pixelCount;
     }
 
     public void updateAndRender(float deltaTime){
 
-        if (stage.getViewport().getCamera().position.y - initialCameraY >= stage.getViewport().getCamera().viewportHeight) {
+        if (this.stage.getViewport().getCamera().position.y - initialCameraY >=
+                this.stage.getViewport().getCamera().viewportHeight) {
             //swap new map in
 //            Gdx.app.debug("updateAndRender", "SWAP");
             this.generator.swapNextMap();
             //bring the camera back to the original point
-            stage.getViewport().getCamera().position.y = initialCameraY;
+            this.stage.getViewport().getCamera().position.y = initialCameraY;
         }else
             //keep moving the camera
-            stage.getViewport().getCamera().position.y += 100.0f * deltaTime;
+            this.stage.getViewport().getCamera().position.y += 100.0f * deltaTime;
 
-        updateFarLeft(200.0f * deltaTime);
+        //the bridge runs 2 grids horizontally each vertical grid
+        this.updateFarLeft(200.0f * deltaTime);
 
 //        Gdx.app.log("LOG CAMERA Y", String.valueOf(stage.getViewport().getCamera().position.y));
 
-        stage.getViewport().getCamera().update();
-        tiledMapRenderer.setView((OrthographicCamera)stage.getViewport().getCamera());
-        tiledMapRenderer.render();
+        this.stage.getViewport().getCamera().update();
+        this.tiledMapRenderer.setView((OrthographicCamera)stage.getViewport().getCamera());
+        this.tiledMapRenderer.render();
     }
 
     public void resize(int width, int height){

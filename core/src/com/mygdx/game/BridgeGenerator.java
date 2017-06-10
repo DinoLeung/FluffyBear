@@ -27,10 +27,9 @@ public class BridgeGenerator {
     private TiledMapTileLayer.Cell[] bridgeL;
     private TiledMapTileLayer.Cell[] bridgeR;
 
-    TiledMap map;
+    public TiledMap map;
 
     private TiledMapTileLayer BridgeLayer;
-//    private TiledMapTileLayer CollisionLayer;
 
     private Array<Integer> farLeft;
     private Array<Boolean> direction;
@@ -39,7 +38,6 @@ public class BridgeGenerator {
     private Array<Boolean> collisionDirection;
 
     private TiledMapTileLayer nextBridgeLayer;
-//    private TiledMapTileLayer nextCollisionLayer;
 
     private Random r;
 
@@ -75,11 +73,8 @@ public class BridgeGenerator {
     public void swapNextMap(){
         //swap new layer into map
         map.getLayers().remove(map.getLayers().getIndex("bridge"));
-//        map.getLayers().remove(map.getLayers().getIndex("collision"));
         map.getLayers().add(nextBridgeLayer);
-//        map.getLayers().add(nextCollisionLayer);
         BridgeLayer = nextBridgeLayer;
-//        CollisionLayer = nextCollisionLayer;
         //ready the next map to swap in
         generateNextMap();
     }
@@ -131,8 +126,6 @@ public class BridgeGenerator {
         //create a empty map layer
         nextBridgeLayer = new TiledMapTileLayer(mapWidth, mapHeight, gridSize, gridSize);
         nextBridgeLayer.setName("bridge");
-//        nextCollisionLayer = new TiledMapTileLayer(mapWidth, mapHeight, gridSize, gridSize);
-//        nextCollisionLayer.setName("collision");
 
         //remove first half
         direction.removeRange(0, mapHeight/2 -1);
@@ -222,8 +215,6 @@ public class BridgeGenerator {
         //create a empty map layer
         BridgeLayer = new TiledMapTileLayer(mapWidth, mapHeight, gridSize, gridSize);
         BridgeLayer.setName("bridge");
-//        CollisionLayer = new TiledMapTileLayer(mapWidth, mapHeight, gridSize, gridSize);
-//        CollisionLayer.setName("collision");
 
         farLeft = new Array<Integer>();
         direction = new Array<Boolean>();
