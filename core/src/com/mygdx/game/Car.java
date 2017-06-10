@@ -26,7 +26,6 @@ public class Car {
     private Texture leftTexture;
     private Texture rightTexture;
 
-//    private Sprite playerSprite;
     private Rectangle playerDeltaRectangle;
 
     public boolean facingLeft = false;
