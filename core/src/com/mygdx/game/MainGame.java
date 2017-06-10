@@ -105,7 +105,10 @@ public class MainGame implements Screen{
 
             //stage has to be draw last, otherwise the car will be drawn under the bridge
             this.stage.draw();
-
+        } else {
+            //go to restart screen
+            launcher.setScreen(new RestartScreen(launcher, 0));
+            dispose();
         }
     }
 
