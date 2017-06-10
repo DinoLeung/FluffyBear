@@ -8,6 +8,7 @@ import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 
 /**
  * Created by dino on 10/6/17.
+ * Font file from http://www.dafont.com/3dventure.font
  */
 
 public class GameLauncher extends Game {

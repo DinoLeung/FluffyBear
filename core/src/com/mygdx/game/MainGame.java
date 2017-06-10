@@ -6,6 +6,7 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
@@ -59,6 +60,8 @@ public class MainGame implements Screen{
     private boolean gameState = true;
     private float score = 0;
 
+    private Sound sound;
+
     public MainGame(final GameLauncher launcher){
         this.launcher = launcher;
         this.create();
@@ -82,6 +85,8 @@ public class MainGame implements Screen{
         bridge = new Bridge(rowNum, colNum, bridgeWidth, stage);
         car = new Car(stage);
         scoreBoard = new ScoreBoard(stage, score, launcher.fontUltraSmall);
+
+        sound = Gdx.audio.newSound(Gdx.files.internal("Sound/watersplash.mp3"));
     }
 
     @Override
@@ -116,6 +121,7 @@ public class MainGame implements Screen{
 
         } else {
             //go to restart screen
+            sound.play(1.0f);
             launcher.setScreen(new RestartScreen(launcher, (int)score));
             dispose();
         }
@@ -168,5 +174,6 @@ public class MainGame implements Screen{
     @Override
     public void dispose () {
         stage.dispose();
+        sound.dispose();
     }
 }
