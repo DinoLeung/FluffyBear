@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/dino/Documents/Mobile App/FluffyBear/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/dino/Documents/FluffyBear/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Users/dino/Documents/Mobile App/FluffyBear/android/res/values/strings.xml",
+                    "file": "/Users/dino/Documents/FluffyBear/android/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -31,7 +31,7 @@
                     "endOffset": 562
                 },
                 "from": {
-                    "file": "/Users/dino/Documents/Mobile App/FluffyBear/android/res/values/styles.xml",
+                    "file": "/Users/dino/Documents/FluffyBear/android/res/values/styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
