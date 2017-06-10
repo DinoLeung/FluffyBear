@@ -16,6 +16,7 @@ public class GameLauncher extends Game {
     public BitmapFont fontBig;
     public BitmapFont fontMid;
     public BitmapFont fontSmall;
+    public BitmapFont fontUltraSmall;
 
     @Override
     public void create() {
@@ -25,10 +26,12 @@ public class GameLauncher extends Game {
         parameter.incremental = true;
         parameter.size = (int)(Gdx.app.getGraphics().getWidth() / 6);
         fontBig = generator.generateFont(parameter);
-        parameter.size = (int)(Gdx.app.getGraphics().getWidth() / 7);
+        parameter.size = (int)(Gdx.app.getGraphics().getWidth() / 8);
         fontMid = generator.generateFont(parameter);
         parameter.size = (int)(Gdx.app.getGraphics().getWidth() / 10);
         fontSmall = generator.generateFont(parameter);
+        parameter.size = (int)(Gdx.app.getGraphics().getWidth() / 20);
+        fontUltraSmall = generator.generateFont(parameter);
         generator.dispose();
 
         batch = new SpriteBatch();

@@ -12,6 +12,7 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.PerspectiveCamera;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.GlyphLayout;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.maps.MapLayer;
@@ -45,6 +46,7 @@ public class MainGame implements Screen{
 
     Bridge bridge;
     Car car;
+    ScoreBoard scoreBoard;
 
     Stage stage;
     Viewport viewport;
@@ -55,6 +57,7 @@ public class MainGame implements Screen{
     private float imageSize;
 
     private boolean gameState = true;
+    private float score = 0;
 
     public MainGame(final GameLauncher launcher){
         this.launcher = launcher;
@@ -78,6 +81,7 @@ public class MainGame implements Screen{
 
         bridge = new Bridge(rowNum, colNum, bridgeWidth, stage);
         car = new Car(stage);
+        scoreBoard = new ScoreBoard(stage, score, launcher.fontUltraSmall);
     }
 
     @Override
@@ -88,15 +92,19 @@ public class MainGame implements Screen{
             Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
             this.stage.act(delta);
 
+            score += delta;
+            scoreBoard.setScore(score);
+
             //change the car direction when screen is touched
             if (Gdx.input.justTouched())
                 this.car.changeDirection();
 
             this.stage.getBatch().begin();
             //pass the delta time over, so that the bridge can be move over time
-            float deltaTime = delta / 3;
+            float deltaTime = delta;
             this.bridge.updateAndRender(deltaTime);
             this.car.updateAndRender(deltaTime);
+            this.scoreBoard.updateAndRender(deltaTime);
             this.stage.getBatch().end();
 
             //check collision, more like checking if the car is in range of the bridge length
@@ -105,9 +113,10 @@ public class MainGame implements Screen{
 
             //stage has to be draw last, otherwise the car will be drawn under the bridge
             this.stage.draw();
+
         } else {
             //go to restart screen
-            launcher.setScreen(new RestartScreen(launcher, 0));
+            launcher.setScreen(new RestartScreen(launcher, (int)score));
             dispose();
         }
     }
@@ -118,8 +127,8 @@ public class MainGame implements Screen{
 
         Rectangle r =car.getPlayerDeltaRectangle();
 
-        Gdx.app.log("COLLISION LEFT", String.valueOf(bridgeLeft) + " " + String.valueOf(r.x ));
-        Gdx.app.log("COLLISION RIGHT", String.valueOf(bridgeRight) + " " + String.valueOf(r.x + (this.GRID_SIZE * 0.25)));
+//        Gdx.app.log("COLLISION LEFT", String.valueOf(bridgeLeft) + " " + String.valueOf(r.x ));
+//        Gdx.app.log("COLLISION RIGHT", String.valueOf(bridgeRight) + " " + String.valueOf(r.x + (this.GRID_SIZE * 0.25)));
 
         return ((bridgeLeft < r.x ) &&
                 (bridgeRight > r.x + (this.GRID_SIZE * 0.25)));
