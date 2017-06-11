@@ -155,7 +155,7 @@ public class BridgeGenerator {
         int lastFarLeft = farLeft.peek();
         boolean towardLeft = direction.peek();
 
-        //generate the next one turning data
+        //generate the next "one" turning data
         if (towardLeft){ //going left
 
             //decide direction for next
@@ -232,8 +232,39 @@ public class BridgeGenerator {
 
         int lastFarLeft = 0;
         boolean towardLeft = false;
+        int h = 0;
 
-        for (int h = 0; h < mapHeight; h++){
+        //generate warm up section turns from the far left/right
+        for (; h < mapHeight/2; h++){
+
+            farLeft.add(lastFarLeft);
+            direction.add(towardLeft);
+
+            if (towardLeft){ //going left
+
+                //draw left
+                lastFarLeft = generateLeft(h, lastFarLeft);
+
+                //check if reach far left
+                if (lastFarLeft <= 0) //turn right
+                    towardLeft = false;
+                else //continue on left
+                    lastFarLeft -= 2;
+
+            }else{ //going right
+
+                //draw right
+                lastFarLeft = generateRight(h, lastFarLeft);
+
+                //check if reach far right
+                if (lastFarLeft + bridgeWidth + 4 >= mapWidth) //turn left
+                    towardLeft = true;
+                else //continue on right
+                    lastFarLeft += 2;
+            }
+        }
+        //generate random turns
+        for (; h < mapHeight; h++){
 
             farLeft.add(lastFarLeft);
             direction.add(towardLeft);
@@ -244,14 +275,14 @@ public class BridgeGenerator {
                 lastFarLeft = generateLeft(h, lastFarLeft);
 
                 //decide direction for next
-//                if (r.nextBoolean()) //keep going left
+                if (r.nextBoolean()) //keep going left
                     //check if reach far left
                     if (lastFarLeft <= 0) //turn right
                         towardLeft = false;
                     else //continue on left
                         lastFarLeft -= 2;
-//                else //turn right next
-//                    towardLeft = false;
+                else //turn right next
+                    towardLeft = false;
 
             }else{ //going right
 
@@ -259,21 +290,21 @@ public class BridgeGenerator {
                 lastFarLeft = generateRight(h, lastFarLeft);
 
                 //decide direction for next
-//                if (r.nextBoolean()) //keep going right
+                if (r.nextBoolean()) //keep going right
                     //check if reach far right
                     if (lastFarLeft + bridgeWidth + 4 >= mapWidth) //turn left
                         towardLeft = true;
                     else //continue on right
                         lastFarLeft += 2;
-//                else //turn left
-//                    towardLeft = true;
+                else //turn left
+                    towardLeft = true;
             }
         }
+
         //add background payer into map
         map.getLayers().add(generateBackgroundLayer());
         //add bridge layer into map
         map.getLayers().add(BridgeLayer);
-//        map.getLayers().add(CollisionLayer);
     }
 
     //private method drawing a row of bridge on the map toward left on original layer
