@@ -41,7 +41,6 @@ public class GameLauncher extends Game {
 
         batch = new SpriteBatch();
         this.setScreen(new StartScreen(this));
-//        this.setScreen(new MainGame(this));
     }
 
     @Override

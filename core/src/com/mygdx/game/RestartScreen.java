@@ -32,11 +32,6 @@ public class RestartScreen implements Screen {
     }
 
     @Override
-    public void show() {
-
-    }
-
-    @Override
     public void render(float delta) {
 
         //#1988964
@@ -95,6 +90,11 @@ public class RestartScreen implements Screen {
 
     @Override
     public void resume() {
+
+    }
+
+    @Override
+    public void show() {
 
     }
 
