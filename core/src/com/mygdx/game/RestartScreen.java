@@ -51,7 +51,7 @@ public class RestartScreen implements Screen {
         String you = "YOU SCORED";
         GlyphLayout You = new GlyphLayout(launcher.fontMid, you);
         String score = String.valueOf(this.score);
-        GlyphLayout Score = new GlyphLayout(launcher.fontBig, score);
+        GlyphLayout Score = new GlyphLayout(launcher.fontUltraBig, score);
 
         String tap = "TAP ANYWHERE";
         GlyphLayout Tap = new GlyphLayout(launcher.fontSmall, tap);
@@ -62,17 +62,17 @@ public class RestartScreen implements Screen {
 
         launcher.fontMid.draw(launcher.batch, You,
                 (Gdx.app.getGraphics().getWidth()-You.width)/2,
-                (Gdx.app.getGraphics().getHeight()-height)/2 + height*4);
-        launcher.fontBig.draw(launcher.batch, Score,
-                (Gdx.app.getGraphics().getWidth()-Score.width)/2,
                 (Gdx.app.getGraphics().getHeight()-height)/2 + height*2);
+        launcher.fontUltraBig.draw(launcher.batch, Score,
+                (Gdx.app.getGraphics().getWidth()-Score.width)/2,
+                (Gdx.app.getGraphics().getHeight()-height)/2 + height);
 
         launcher.fontSmall.draw(launcher.batch, Tap,
                 (Gdx.app.getGraphics().getWidth()-Tap.width)/2,
-                (Gdx.app.getGraphics().getHeight()-height)/2 - height*2);
+                (Gdx.app.getGraphics().getHeight()-height)/2 - height);
         launcher.fontSmall.draw(launcher.batch, To,
                 (Gdx.app.getGraphics().getWidth()-To.width)/2,
-                (Gdx.app.getGraphics().getHeight()-height)/2 - height*2 - To.height*2);
+                (Gdx.app.getGraphics().getHeight()-height)/2 - height - To.height*2);
 
         launcher.batch.end();
 

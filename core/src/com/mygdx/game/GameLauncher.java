@@ -18,6 +18,7 @@ public class GameLauncher extends Game {
     public BitmapFont fontMid;
     public BitmapFont fontSmall;
     public BitmapFont fontUltraSmall;
+    public BitmapFont fontUltraBig;
 
     @Override
     public void create() {
@@ -25,6 +26,8 @@ public class GameLauncher extends Game {
         FreeTypeFontGenerator generator = new FreeTypeFontGenerator(Gdx.files.internal("Font/3Dventure.ttf"));
         FreeTypeFontGenerator.FreeTypeFontParameter parameter = new FreeTypeFontGenerator.FreeTypeFontParameter();
         parameter.incremental = true;
+        parameter.size = (int)(Gdx.app.getGraphics().getWidth() / 3);
+        fontUltraBig = generator.generateFont(parameter);
         parameter.size = (int)(Gdx.app.getGraphics().getWidth() / 6);
         fontBig = generator.generateFont(parameter);
         parameter.size = (int)(Gdx.app.getGraphics().getWidth() / 8);
@@ -33,6 +36,7 @@ public class GameLauncher extends Game {
         fontSmall = generator.generateFont(parameter);
         parameter.size = (int)(Gdx.app.getGraphics().getWidth() / 20);
         fontUltraSmall = generator.generateFont(parameter);
+
         generator.dispose();
 
         batch = new SpriteBatch();

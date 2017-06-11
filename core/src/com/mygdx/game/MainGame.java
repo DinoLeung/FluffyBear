@@ -105,16 +105,16 @@ public class MainGame implements Screen{
     }
 
     private boolean collision(){
-        int bridgeLeft = this.bridge.getFarLeft();
-        int bridgeRight = bridgeLeft + ((2 + this.bridgeWidth) * this.GRID_SIZE);
+        float bridgeLeft = this.bridge.getFarLeft();
+        float bridgeRight = bridgeLeft + ((2 + this.bridgeWidth) * this.GRID_SIZE);
 
         Rectangle r =car.getPlayerDeltaRectangle();
 
 //        Gdx.app.log("COLLISION LEFT", String.valueOf(bridgeLeft) + " " + String.valueOf(r.x ));
 //        Gdx.app.log("COLLISION RIGHT", String.valueOf(bridgeRight) + " " + String.valueOf(r.x + (this.GRID_SIZE * 0.25)));
 
-        return ((bridgeLeft < r.x ) &&
-                (bridgeRight > r.x + (this.GRID_SIZE * 0.25)));
+        return ((bridgeLeft < r.x) &&
+                (bridgeRight > r.x+(this.GRID_SIZE)));
     }
 
     @Override

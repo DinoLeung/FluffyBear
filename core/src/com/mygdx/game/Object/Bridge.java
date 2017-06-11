@@ -25,7 +25,7 @@ public class Bridge {
 
     TiledMapRenderer tiledMapRenderer;
 
-    private int farLeft;
+    private float farLeft;
     private int previousIndex = 0;
     private float pixelCount = 0;
 
@@ -57,7 +57,7 @@ public class Bridge {
 
     }
 
-    public int getFarLeft(){
+    public float getFarLeft(){
         return this.farLeft;
     }
 
@@ -80,10 +80,10 @@ public class Bridge {
 
         if (currentTowardLeft) {
             currentFarLeft += MainGame.GRID_SIZE * 2;
-            this.farLeft = currentFarLeft - (int)this.pixelCount;
+            this.farLeft = currentFarLeft - this.pixelCount;
         }
         else
-            this.farLeft = currentFarLeft + (int)this.pixelCount;
+            this.farLeft = currentFarLeft + this.pixelCount;
     }
 
     public void updateAndRender(float deltaTime){
